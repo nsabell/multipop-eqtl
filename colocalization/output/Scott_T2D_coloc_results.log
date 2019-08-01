@@ -1,0 +1,3733 @@
+── Attaching packages ─────────────────────────────────────── tidyverse 1.2.1 ──
+✔ ggplot2 3.1.0     ✔ purrr   0.2.5
+✔ tibble  2.0.1     ✔ dplyr   0.7.7
+✔ tidyr   0.8.2     ✔ stringr 1.3.1
+✔ readr   1.1.1     ✔ forcats 0.3.0
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::between()   masks data.table::between()
+✖ dplyr::filter()    masks stats::filter()
+✖ dplyr::first()     masks data.table::first()
+✖ dplyr::lag()       masks stats::lag()
+✖ dplyr::last()      masks data.table::last()
+✖ purrr::transpose() masks data.table::transpose()
+Taking input= as a system command ('zcat colocalization/gwas/GWAS_Type-2-Diabetes_Scott_2017_nonBMIadj.txt.gz') and a variable has been used in the expression passed to `input=`. Please use fread(cmd=...). There is a security concern if you are creating an app, and the app could have a malicious user, and the app is not running in a secure envionment; e.g. the app is running as root. Please read item 5 in the NEWS file for v1.11.6 for more information and for the option to suppress this message.
+[1] "ENSG00000055950_MRPL43"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 8.59e-04  8.29e-05  9.07e-01  8.76e-02  4.52e-03 
+[1] "PP abf for shared variant: 0.452%"
+[1] ""
+[1] "ENSG00000067057_PFKP"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.2730    0.0720    0.5080    0.1340    0.0128 
+[1] "PP abf for shared variant: 1.28%"
+[1] ""
+[1] "ENSG00000078114_NEBL"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.52500   0.06510   0.35800   0.04440   0.00783 
+[1] "PP abf for shared variant: 0.783%"
+[1] ""
+[1] "ENSG00000089876_DHX32"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.10600   0.01510   0.76400   0.10900   0.00528 
+[1] "PP abf for shared variant: 0.528%"
+[1] ""
+[1] "ENSG00000095787_WAC"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.52700   0.06900   0.35100   0.04600   0.00684 
+[1] "PP abf for shared variant: 0.684%"
+[1] ""
+[1] "ENSG00000107951_PAPD1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.4370    0.0669    0.4240    0.0648    0.0073 
+[1] "PP abf for shared variant: 0.73%"
+[1] ""
+[1] "ENSG00000119979_FAM45A"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.2000    0.0164    0.7120    0.0584    0.0130 
+[1] "PP abf for shared variant: 1.3%"
+[1] ""
+[1] "ENSG00000120616_EPC1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.56100   0.04680   0.35700   0.02970   0.00515 
+[1] "PP abf for shared variant: 0.515%"
+[1] ""
+[1] "ENSG00000127884_ECHS1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.63300   0.04840   0.29100   0.02230   0.00572 
+[1] "PP abf for shared variant: 0.572%"
+[1] ""
+[1] "ENSG00000134463_ECHDC3"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.00461   0.50200   0.00382   0.41600   0.07430 
+[1] "PP abf for shared variant: 7.43%"
+[1] ""
+[1] "ENSG00000138185_ENTPD1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.04200   0.00345   0.87800   0.07210   0.00481 
+[1] "PP abf for shared variant: 0.481%"
+[1] ""
+[1] "ENSG00000148484_RSU1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.45300   0.06310   0.41700   0.05820   0.00896 
+[1] "PP abf for shared variant: 0.896%"
+[1] ""
+[1] "ENSG00000151640_DPYSL4"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.18500   0.01880   0.71600   0.07310   0.00715 
+[1] "PP abf for shared variant: 0.715%"
+[1] ""
+[1] "ENSG00000151893_C10orf46"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.5560    0.0437    0.3660    0.0287    0.0055 
+[1] "PP abf for shared variant: 0.55%"
+[1] ""
+[1] "ENSG00000156398_SFXN2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.4390    0.0624    0.4020    0.0571    0.0387 
+[1] "PP abf for shared variant: 3.87%"
+[1] ""
+[1] "ENSG00000165730_STOX1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.0679    0.1520    0.2360    0.5290    0.0152 
+[1] "PP abf for shared variant: 1.52%"
+[1] ""
+[1] "ENSG00000165983_PTER"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 2.06e-09  2.83e-10  8.67e-01  1.19e-01  1.32e-02 
+[1] "PP abf for shared variant: 1.32%"
+[1] ""
+[1] "ENSG00000166169_POLL"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.27200   0.02110   0.65100   0.05040   0.00604 
+[1] "PP abf for shared variant: 0.604%"
+[1] ""
+[1] "ENSG00000173915_USMG5"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 8.53e-10  1.22e-10  8.51e-01  1.22e-01  2.73e-02 
+[1] "PP abf for shared variant: 2.73%"
+[1] ""
+[1] "ENSG00000183605_SFXN4"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.59600   0.04900   0.32300   0.02660   0.00541 
+[1] "PP abf for shared variant: 0.541%"
+[1] ""
+[1] "ENSG00000188690_UROS"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.01070   0.00161   0.85400   0.12900   0.00430 
+[1] "PP abf for shared variant: 0.43%"
+[1] ""
+[1] "ENSG00000197771_C10orf119"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.12600   0.01480   0.76200   0.08930   0.00764 
+[1] "PP abf for shared variant: 0.764%"
+[1] ""
+[1] "ENSG00000205703_C10orf139"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.54500   0.07960   0.32100   0.04700   0.00736 
+[1] "PP abf for shared variant: 0.736%"
+[1] ""
+[1] "ENSG00000014138_POLA2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.0373    0.5540    0.0229    0.3400    0.0461 
+[1] "PP abf for shared variant: 4.61%"
+[1] ""
+[1] "ENSG00000066336_SPI1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.0622    0.0541    0.3960    0.3440    0.1440 
+[1] "PP abf for shared variant: 14.4%"
+[1] ""
+[1] "ENSG00000074319_TSG101"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.005210  0.000772  0.862000  0.128000  0.004590 
+[1] "PP abf for shared variant: 0.459%"
+[1] ""
+[1] "ENSG00000078124_PHCA"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 8.36e-04  5.12e-05  9.37e-01  5.74e-02  5.24e-03 
+[1] "PP abf for shared variant: 0.524%"
+[1] ""
+[1] "ENSG00000099834_MUPCDH"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+    0.387     0.150     0.320     0.124     0.018 
+[1] "PP abf for shared variant: 1.8%"
+[1] ""
+[1] "ENSG00000110074_FOXRED1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.01200   0.00155   0.86800   0.11200   0.00707 
+[1] "PP abf for shared variant: 0.707%"
+[1] ""
+[1] "ENSG00000110076_NRXN2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.0553    0.6910    0.0148    0.1850    0.0544 
+[1] "PP abf for shared variant: 5.44%"
+[1] ""
+[1] "ENSG00000110080_ST3GAL4"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.54500   0.07010   0.33300   0.04290   0.00889 
+[1] "PP abf for shared variant: 0.889%"
+[1] ""
+[1] "ENSG00000110315_RNF141"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.51100   0.06500   0.37000   0.04710   0.00729 
+[1] "PP abf for shared variant: 0.729%"
+[1] ""
+[1] "ENSG00000110455_ILMN_3829"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.000296  0.444000  0.000346  0.519000  0.035800 
+[1] "PP abf for shared variant: 3.58%"
+[1] ""
+[1] "ENSG00000110768_GTF2H1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.00265   0.15000   0.01450   0.82000   0.01210 
+[1] "PP abf for shared variant: 1.21%"
+[1] ""
+[1] "ENSG00000120451_SNX19"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.2470    0.0310    0.6190    0.0777    0.0257 
+[1] "PP abf for shared variant: 2.57%"
+[1] ""
+[1] "ENSG00000131626_PPFIA1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.01080   0.00125   0.88200   0.10200   0.00453 
+[1] "PP abf for shared variant: 0.453%"
+[1] ""
+[1] "ENSG00000134627_PIWIL4"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.62700   0.04500   0.30100   0.02160   0.00498 
+[1] "PP abf for shared variant: 0.498%"
+[1] ""
+[1] "ENSG00000134809_TIMM10"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.00556   0.00108   0.82500   0.16000   0.00831 
+[1] "PP abf for shared variant: 0.831%"
+[1] ""
+[1] "ENSG00000149084_HSD17B12"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.78e-09  2.68e-06  5.03e-05  7.47e-02  9.25e-01 
+[1] "PP abf for shared variant: 92.5%"
+[1] ""
+[1] "ENSG00000149089_APIP"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.43e-06  3.29e-06  4.43e-02  1.01e-01  8.55e-01 
+[1] "PP abf for shared variant: 85.5%"
+[1] ""
+[1] "ENSG00000159063_ALG8"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.20700   0.01280   0.73100   0.04520   0.00482 
+[1] "PP abf for shared variant: 0.482%"
+[1] ""
+[1] "ENSG00000165434_PGM2L1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.64300   0.03300   0.30400   0.01560   0.00386 
+[1] "PP abf for shared variant: 0.386%"
+[1] ""
+[1] "ENSG00000165526_RPUSD4"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.46000   0.06010   0.41800   0.05460   0.00769 
+[1] "PP abf for shared variant: 0.769%"
+[1] ""
+[1] "ENSG00000166435_XRRA1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.05e-03  9.47e-05  9.10e-01  8.24e-02  6.27e-03 
+[1] "PP abf for shared variant: 0.627%"
+[1] ""
+[1] "ENSG00000166439_RNF169"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.01150   0.00105   0.89900   0.08240   0.00561 
+[1] "PP abf for shared variant: 0.561%"
+[1] ""
+[1] "ENSG00000166788_SAAL1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.00684   0.39000   0.00953   0.54400   0.04980 
+[1] "PP abf for shared variant: 4.98%"
+[1] ""
+[1] "ENSG00000166796_LDHC"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.0747    0.0114    0.7830    0.1200    0.0112 
+[1] "PP abf for shared variant: 1.12%"
+[1] ""
+[1] "ENSG00000168000_BSCL2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.3600    0.2960    0.1710    0.1400    0.0332 
+[1] "PP abf for shared variant: 3.32%"
+[1] ""
+[1] "ENSG00000168002_POLR2G"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.3780    0.3100    0.1580    0.1300    0.0247 
+[1] "PP abf for shared variant: 2.47%"
+[1] ""
+[1] "ENSG00000168071_CCDC88B"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.38400   0.02570   0.54500   0.03640   0.00841 
+[1] "PP abf for shared variant: 0.841%"
+[1] ""
+[1] "ENSG00000172890_NADSYN1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.2330    0.0161    0.6980    0.0482    0.0050 
+[1] "PP abf for shared variant: 0.5%"
+[1] ""
+[1] "ENSG00000173113_ILMN_22312"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.63900   0.04260   0.29400   0.01960   0.00563 
+[1] "PP abf for shared variant: 0.563%"
+[1] ""
+[1] "ENSG00000173715_C11orf80"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.1980    0.4780    0.0813    0.1960    0.0465 
+[1] "PP abf for shared variant: 4.65%"
+[1] ""
+[1] "ENSG00000173992_CCS"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.0274    0.3870    0.0365    0.5150    0.0345 
+[1] "PP abf for shared variant: 3.45%"
+[1] ""
+[1] "ENSG00000175390_EIF3F"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.54200   0.06500   0.34500   0.04130   0.00648 
+[1] "PP abf for shared variant: 0.648%"
+[1] ""
+[1] "ENSG00000175567_UCP2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.0093    0.3300    0.0168    0.5970    0.0469 
+[1] "PP abf for shared variant: 4.69%"
+[1] ""
+[1] "ENSG00000175575_PAAF1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.00629   0.35500   0.01050   0.59600   0.03200 
+[1] "PP abf for shared variant: 3.2%"
+[1] ""
+[1] "ENSG00000175581_MRPL48"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.00569   0.50500   0.00496   0.44100   0.04320 
+[1] "PP abf for shared variant: 4.32%"
+[1] ""
+[1] "ENSG00000176148_TCP11L1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.0568    0.0134    0.7220    0.1700    0.0379 
+[1] "PP abf for shared variant: 3.79%"
+[1] ""
+[1] "ENSG00000177042_TMEM80"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+    0.393     0.161     0.305     0.125     0.017 
+[1] "PP abf for shared variant: 1.7%"
+[1] ""
+[1] "ENSG00000177685_EFCAB4A"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.3870    0.1780    0.2810    0.1290    0.0256 
+[1] "PP abf for shared variant: 2.56%"
+[1] ""
+[1] "ENSG00000177697_CD151"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 2.05e-04  9.43e-05  6.82e-01  3.13e-01  4.99e-03 
+[1] "PP abf for shared variant: 0.499%"
+[1] ""
+[1] "ENSG00000179057_IGSF22"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.56900   0.06340   0.32500   0.03620   0.00638 
+[1] "PP abf for shared variant: 0.638%"
+[1] ""
+[1] "ENSG00000182919_C11orf54"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.0101    0.1430    0.0548    0.7790    0.0128 
+[1] "PP abf for shared variant: 1.28%"
+[1] ""
+[1] "ENSG00000184524_CEND1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+    0.324     0.148     0.350     0.160     0.018 
+[1] "PP abf for shared variant: 1.8%"
+[1] ""
+[1] "ENSG00000185187_SIGIRR"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.4600    0.1720    0.2550    0.0953    0.0184 
+[1] "PP abf for shared variant: 1.84%"
+[1] ""
+[1] "ENSG00000196655_TRAPPC4"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.47e-04  2.56e-05  8.46e-01  1.48e-01  5.67e-03 
+[1] "PP abf for shared variant: 0.567%"
+[1] ""
+[1] "ENSG00000197345_MRPL21"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 5.03e-04  6.12e-05  8.84e-01  1.07e-01  8.08e-03 
+[1] "PP abf for shared variant: 0.808%"
+[1] ""
+[1] "ENSG00000202477_SNORD25"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.4990    0.1160    0.3030    0.0707    0.0107 
+[1] "PP abf for shared variant: 1.07%"
+[1] ""
+[1] "ENSG00000205339_IPO7"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.34700   0.03720   0.54800   0.05880   0.00975 
+[1] "PP abf for shared variant: 0.975%"
+[1] ""
+[1] "ENSG00000213931_HBE1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.4650    0.0705    0.3970    0.0603    0.0069 
+[1] "PP abf for shared variant: 0.69%"
+[1] ""
+[1] "ENSG00000010626_LRRC23"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 2.65e-04  5.37e-05  8.23e-01  1.67e-01  9.64e-03 
+[1] "PP abf for shared variant: 0.964%"
+[1] ""
+[1] "ENSG00000076067_RBMS2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.2560    0.0513    0.5680    0.1140    0.0112 
+[1] "PP abf for shared variant: 1.12%"
+[1] ""
+[1] "ENSG00000089127_OAS1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.00201   0.00029   0.86800   0.12500   0.00495 
+[1] "PP abf for shared variant: 0.495%"
+[1] ""
+[1] "ENSG00000089163_SIRT4"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.00132   0.52400   0.00101   0.40200   0.07170 
+[1] "PP abf for shared variant: 7.17%"
+[1] ""
+[1] "ENSG00000110906_KCTD10"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.59e-05  1.15e-06  9.27e-01  6.73e-02  5.91e-03 
+[1] "PP abf for shared variant: 0.591%"
+[1] ""
+[1] "ENSG00000110931_CAMKK2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.000812  0.324000  0.001620  0.646000  0.027400 
+[1] "PP abf for shared variant: 2.74%"
+[1] ""
+[1] "ENSG00000111321_LTBR"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.5370    0.1000    0.2970    0.0555    0.0101 
+[1] "PP abf for shared variant: 1.01%"
+[1] ""
+[1] "ENSG00000111358_GTF2H3"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.2310    0.3980    0.1200    0.2060    0.0457 
+[1] "PP abf for shared variant: 4.57%"
+[1] ""
+[1] "ENSG00000111364_DDX55"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+    0.118     0.204     0.235     0.405     0.037 
+[1] "PP abf for shared variant: 3.7%"
+[1] ""
+[1] "ENSG00000111371_SLC38A1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.00844   0.00436   0.64800   0.33500   0.00463 
+[1] "PP abf for shared variant: 0.463%"
+[1] ""
+[1] "ENSG00000111581_NUP107"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.49400   0.06170   0.38800   0.04860   0.00754 
+[1] "PP abf for shared variant: 0.754%"
+[1] ""
+[1] "ENSG00000111666_CHPT1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.03690   0.00345   0.87100   0.08140   0.00707 
+[1] "PP abf for shared variant: 0.707%"
+[1] ""
+[1] "ENSG00000111711_GOLT1B"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.1850    0.4210    0.1090    0.2480    0.0371 
+[1] "PP abf for shared variant: 3.71%"
+[1] ""
+[1] "ENSG00000111725_PRKAB1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.01120   0.62800   0.00538   0.30100   0.05510 
+[1] "PP abf for shared variant: 5.51%"
+[1] ""
+[1] "ENSG00000111780_ILMN_16367"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.0011    0.4380    0.0013    0.5200    0.0397 
+[1] "PP abf for shared variant: 3.97%"
+[1] ""
+[1] "ENSG00000123297_TSFM"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.21400   0.02490   0.67400   0.07860   0.00904 
+[1] "PP abf for shared variant: 0.904%"
+[1] ""
+[1] "ENSG00000123427_FAM119B"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.001510  0.000177  0.885000  0.103000  0.010000 
+[1] "PP abf for shared variant: 1%"
+[1] ""
+[1] "ENSG00000127337_YEATS4"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.10200   0.01230   0.78400   0.09510   0.00631 
+[1] "PP abf for shared variant: 0.631%"
+[1] ""
+[1] "ENSG00000134545_KLRC1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.58400   0.03990   0.34800   0.02380   0.00405 
+[1] "PP abf for shared variant: 0.405%"
+[1] ""
+[1] "ENSG00000135426_KIAA0748"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.4540    0.1230    0.3190    0.0864    0.0172 
+[1] "PP abf for shared variant: 1.72%"
+[1] ""
+[1] "ENSG00000136026_CKAP4"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.64400   0.04720   0.28300   0.02070   0.00442 
+[1] "PP abf for shared variant: 0.442%"
+[1] ""
+[1] "ENSG00000136048_ILMN_20048"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.59100   0.08110   0.28100   0.03840   0.00862 
+[1] "PP abf for shared variant: 0.862%"
+[1] ""
+[1] "ENSG00000139187_KLRG1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.27900   0.01970   0.65100   0.04580   0.00478 
+[1] "PP abf for shared variant: 0.478%"
+[1] ""
+[1] "ENSG00000139190_VAMP1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.1430    0.0269    0.6910    0.1290    0.0097 
+[1] "PP abf for shared variant: 0.97%"
+[1] ""
+[1] "ENSG00000139192_TAPBPL"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.03090   0.00579   0.80200   0.15000   0.01100 
+[1] "PP abf for shared variant: 1.1%"
+[1] ""
+[1] "ENSG00000139197_PEX5"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.05250   0.01020   0.77800   0.15200   0.00763 
+[1] "PP abf for shared variant: 0.763%"
+[1] ""
+[1] "ENSG00000150045_KLRF1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.5870    0.0428    0.3410    0.0248    0.0042 
+[1] "PP abf for shared variant: 0.42%"
+[1] ""
+[1] "ENSG00000155957_TMBIM4"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.01830   0.61400   0.00908   0.30500   0.05390 
+[1] "PP abf for shared variant: 5.39%"
+[1] ""
+[1] "ENSG00000157895_C12orf43"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.00108   0.42900   0.00133   0.53200   0.03670 
+[1] "PP abf for shared variant: 3.67%"
+[1] ""
+[1] "ENSG00000165714_LOH12CR1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.4820    0.0509    0.4130    0.0436    0.0109 
+[1] "PP abf for shared variant: 1.09%"
+[1] ""
+[1] "ENSG00000166888_STAT6"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.21500   0.01380   0.72000   0.04640   0.00479 
+[1] "PP abf for shared variant: 0.479%"
+[1] ""
+[1] "ENSG00000166896_XRCC6BP1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.31400   0.03620   0.57700   0.06650   0.00638 
+[1] "PP abf for shared variant: 0.638%"
+[1] ""
+[1] "ENSG00000171840_NINJ2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.64000   0.06090   0.26800   0.02550   0.00576 
+[1] "PP abf for shared variant: 0.576%"
+[1] ""
+[1] "ENSG00000176422_SPRYD4"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.003150  0.000641  0.824000  0.168000  0.004810 
+[1] "PP abf for shared variant: 0.481%"
+[1] ""
+[1] "ENSG00000177627_C12orf54"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.39000   0.05150   0.48700   0.06440   0.00709 
+[1] "PP abf for shared variant: 0.709%"
+[1] ""
+[1] "ENSG00000184752_NDUFA12"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.2630    0.0475    0.5710    0.1030    0.0146 
+[1] "PP abf for shared variant: 1.46%"
+[1] ""
+[1] "ENSG00000185163_DDX51"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.4290    0.1350    0.3220    0.1010    0.0132 
+[1] "PP abf for shared variant: 1.32%"
+[1] ""
+[1] "ENSG00000185480_C12orf48"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.4730    0.0611    0.4060    0.0525    0.0075 
+[1] "PP abf for shared variant: 0.75%"
+[1] ""
+[1] "ENSG00000186081_KRT5"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.58000   0.05640   0.32600   0.03170   0.00614 
+[1] "PP abf for shared variant: 0.614%"
+[1] ""
+[1] "ENSG00000186611_ILMN_34849"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.53400   0.04010   0.39100   0.02940   0.00512 
+[1] "PP abf for shared variant: 0.512%"
+[1] ""
+[1] "ENSG00000032742_IFT88"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.35400   0.03760   0.54500   0.05770   0.00563 
+[1] "PP abf for shared variant: 0.563%"
+[1] ""
+[1] "ENSG00000102796_DHRS12"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.32200   0.01390   0.63200   0.02730   0.00439 
+[1] "PP abf for shared variant: 0.439%"
+[1] ""
+[1] "ENSG00000122034_GTF3A"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.3920    0.1150    0.3710    0.1090    0.0133 
+[1] "PP abf for shared variant: 1.33%"
+[1] ""
+[1] "ENSG00000136111_TBC1D4"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.01400   0.00527   0.70700   0.26500   0.00780 
+[1] "PP abf for shared variant: 0.78%"
+[1] ""
+[1] "ENSG00000139617_ILMN_28859"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.000839  0.000401  0.518000  0.247000  0.233000 
+[1] "PP abf for shared variant: 23.3%"
+[1] ""
+[1] "ENSG00000151287_C13orf27"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.48300   0.06640   0.39000   0.05370   0.00765 
+[1] "PP abf for shared variant: 0.765%"
+[1] ""
+[1] "ENSG00000169062_UPF3A"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.68400   0.06130   0.22800   0.02050   0.00635 
+[1] "PP abf for shared variant: 0.635%"
+[1] ""
+[1] "ENSG00000174032_SLC25A30"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.57500   0.05450   0.33300   0.03150   0.00636 
+[1] "PP abf for shared variant: 0.636%"
+[1] ""
+[1] "ENSG00000089916_C14orf118"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.03950   0.01900   0.63000   0.30400   0.00747 
+[1] "PP abf for shared variant: 0.747%"
+[1] ""
+[1] "ENSG00000092020_PPP2R3C"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.2510    0.0366    0.6160    0.0900    0.0072 
+[1] "PP abf for shared variant: 0.72%"
+[1] ""
+[1] "ENSG00000092094_OSGEP"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.07470   0.00641   0.84000   0.07210   0.00663 
+[1] "PP abf for shared variant: 0.663%"
+[1] ""
+[1] "ENSG00000092203_TOX4"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.39700   0.04330   0.50000   0.05460   0.00577 
+[1] "PP abf for shared variant: 0.577%"
+[1] ""
+[1] "ENSG00000100439_ABHD4"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.52300   0.05360   0.37900   0.03880   0.00557 
+[1] "PP abf for shared variant: 0.557%"
+[1] ""
+[1] "ENSG00000100445_C14orf124"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.1870    0.0868    0.4890    0.2270    0.0104 
+[1] "PP abf for shared variant: 1.04%"
+[1] ""
+[1] "ENSG00000100490_CDKL1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.07030   0.00639   0.84100   0.07640   0.00543 
+[1] "PP abf for shared variant: 0.543%"
+[1] ""
+[1] "ENSG00000100744_C14orf129"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.13000   0.01810   0.74300   0.10300   0.00552 
+[1] "PP abf for shared variant: 0.552%"
+[1] ""
+[1] "ENSG00000100814_CCNB1IP1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.39600   0.03260   0.52400   0.04310   0.00511 
+[1] "PP abf for shared variant: 0.511%"
+[1] ""
+[1] "ENSG00000100908_C14orf122"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.3680    0.1700    0.3010    0.1390    0.0221 
+[1] "PP abf for shared variant: 2.21%"
+[1] ""
+[1] "ENSG00000100931_CHMP4A"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.4250    0.1960    0.2470    0.1140    0.0183 
+[1] "PP abf for shared variant: 1.83%"
+[1] ""
+[1] "ENSG00000119599_WDR21A"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.3790    0.0483    0.4980    0.0635    0.0118 
+[1] "PP abf for shared variant: 1.18%"
+[1] ""
+[1] "ENSG00000119632_FAM14A"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.5590    0.0519    0.3520    0.0327    0.0051 
+[1] "PP abf for shared variant: 0.51%"
+[1] ""
+[1] "ENSG00000119684_MLH3"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.000903  0.000173  0.835000  0.160000  0.004250 
+[1] "PP abf for shared variant: 0.425%"
+[1] ""
+[1] "ENSG00000119718_EIF2B2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.004890  0.000934  0.831000  0.159000  0.004310 
+[1] "PP abf for shared variant: 0.431%"
+[1] ""
+[1] "ENSG00000125375_ATP5S"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.58500   0.05330   0.32600   0.02970   0.00579 
+[1] "PP abf for shared variant: 0.579%"
+[1] ""
+[1] "ENSG00000129514_FOXA1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.66400   0.03600   0.28200   0.01530   0.00334 
+[1] "PP abf for shared variant: 0.334%"
+[1] ""
+[1] "ENSG00000134007_ADAM20"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.61100   0.04640   0.31400   0.02390   0.00471 
+[1] "PP abf for shared variant: 0.471%"
+[1] ""
+[1] "ENSG00000139998_RAB15"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.50900   0.07960   0.34800   0.05430   0.00921 
+[1] "PP abf for shared variant: 0.921%"
+[1] ""
+[1] "ENSG00000140092_FBLN5"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.3040    0.2270    0.2570    0.1920    0.0201 
+[1] "PP abf for shared variant: 2.01%"
+[1] ""
+[1] "ENSG00000140104_C14orf79"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.60200   0.04650   0.32100   0.02480   0.00514 
+[1] "PP abf for shared variant: 0.514%"
+[1] ""
+[1] "ENSG00000155465_SLC7A7"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.49700   0.05530   0.39700   0.04420   0.00599 
+[1] "PP abf for shared variant: 0.599%"
+[1] ""
+[1] "ENSG00000157326_DHRS4"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.54200   0.04820   0.37100   0.03300   0.00577 
+[1] "PP abf for shared variant: 0.577%"
+[1] ""
+[1] "ENSG00000165501_PPIL5"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.55000   0.04250   0.37300   0.02880   0.00529 
+[1] "PP abf for shared variant: 0.529%"
+[1] ""
+[1] "ENSG00000165819_METTL3"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.44700   0.04880   0.44700   0.04880   0.00884 
+[1] "PP abf for shared variant: 0.884%"
+[1] ""
+[1] "ENSG00000166166_C14orf172"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.3750    0.1110    0.3850    0.1140    0.0141 
+[1] "PP abf for shared variant: 1.41%"
+[1] ""
+[1] "ENSG00000177465_ACOT4"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.4370    0.1130    0.3470    0.0900    0.0128 
+[1] "PP abf for shared variant: 1.28%"
+[1] ""
+[1] "ENSG00000182512_GLRX5"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.2810    0.0403    0.5870    0.0842    0.0068 
+[1] "PP abf for shared variant: 0.68%"
+[1] ""
+[1] "ENSG00000183648_NDUFB1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.2450    0.1810    0.3200    0.2370    0.0171 
+[1] "PP abf for shared variant: 1.71%"
+[1] ""
+[1] "ENSG00000184990_SIVA1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.34800   0.04340   0.53300   0.06660   0.00927 
+[1] "PP abf for shared variant: 0.927%"
+[1] ""
+[1] "ENSG00000187630_DHRS4L2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.56300   0.05250   0.34600   0.03230   0.00571 
+[1] "PP abf for shared variant: 0.571%"
+[1] ""
+[1] "ENSG00000197195_CHURC1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 4.93e-09  7.71e-10  8.60e-01  1.35e-01  5.09e-03 
+[1] "PP abf for shared variant: 0.509%"
+[1] ""
+[1] "ENSG00000198805_NP"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.53600   0.04610   0.38000   0.03270   0.00511 
+[1] "PP abf for shared variant: 0.511%"
+[1] ""
+[1] "ENSG00000198894_KIAA1737"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.2060    0.1160    0.4250    0.2400    0.0133 
+[1] "PP abf for shared variant: 1.33%"
+[1] ""
+[1] "ENSG00000205659_LIN52"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 2.95e-04  6.98e-05  8.04e-01  1.90e-01  5.88e-03 
+[1] "PP abf for shared variant: 0.588%"
+[1] ""
+[1] "ENSG00000051180_RAD51"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.000492  0.000138  0.777000  0.217000  0.005060 
+[1] "PP abf for shared variant: 0.506%"
+[1] ""
+[1] "ENSG00000064726_BTBD1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.64000   0.08000   0.24100   0.03010   0.00874 
+[1] "PP abf for shared variant: 0.874%"
+[1] ""
+[1] "ENSG00000074696_PTPLAD1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.07300   0.00752   0.82800   0.08540   0.00582 
+[1] "PP abf for shared variant: 0.582%"
+[1] ""
+[1] "ENSG00000103657_HERC1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.3840    0.2290    0.2220    0.1320    0.0327 
+[1] "PP abf for shared variant: 3.27%"
+[1] ""
+[1] "ENSG00000103671_TRIP4"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.3530    0.2010    0.2680    0.1530    0.0254 
+[1] "PP abf for shared variant: 2.54%"
+[1] ""
+[1] "ENSG00000103811_CTSH"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.2730    0.0271    0.6310    0.0625    0.0067 
+[1] "PP abf for shared variant: 0.67%"
+[1] ""
+[1] "ENSG00000103932_RPAP1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.1000    0.0236    0.4910    0.1150    0.2700 
+[1] "PP abf for shared variant: 27%"
+[1] ""
+[1] "ENSG00000104047_DTWD1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.13600   0.01030   0.78900   0.05990   0.00501 
+[1] "PP abf for shared variant: 0.501%"
+[1] ""
+[1] "ENSG00000104055_TGM5"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.1280    0.0109    0.7810    0.0665    0.0144 
+[1] "PP abf for shared variant: 1.44%"
+[1] ""
+[1] "ENSG00000136371_MTHFS"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.4100    0.0725    0.4320    0.0764    0.0084 
+[1] "PP abf for shared variant: 0.84%"
+[1] ""
+[1] "ENSG00000137806_NDUFAF1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.13500   0.03210   0.66700   0.15800   0.00778 
+[1] "PP abf for shared variant: 0.778%"
+[1] ""
+[1] "ENSG00000140264_SERF2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.62800   0.05230   0.28700   0.02390   0.00876 
+[1] "PP abf for shared variant: 0.876%"
+[1] ""
+[1] "ENSG00000140400_MAN2C1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.3020    0.0300    0.5860    0.0581    0.0235 
+[1] "PP abf for shared variant: 2.35%"
+[1] ""
+[1] "ENSG00000140471_LINS1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.39100   0.05140   0.48700   0.06400   0.00664 
+[1] "PP abf for shared variant: 0.664%"
+[1] ""
+[1] "ENSG00000166140_ZFYVE19"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.1210    0.0326    0.4920    0.1320    0.2230 
+[1] "PP abf for shared variant: 22.3%"
+[1] ""
+[1] "ENSG00000166762_CATSPER2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.39600   0.03300   0.52000   0.04330   0.00691 
+[1] "PP abf for shared variant: 0.691%"
+[1] ""
+[1] "ENSG00000166938_DIS3L"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.1170    0.0157    0.6630    0.0886    0.1160 
+[1] "PP abf for shared variant: 11.6%"
+[1] ""
+[1] "ENSG00000168803_ADAL"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.6240    0.0531    0.2850    0.0243    0.0135 
+[1] "PP abf for shared variant: 1.35%"
+[1] ""
+[1] "ENSG00000168970_PLA2G4B"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.1450    0.0173    0.6620    0.0788    0.0972 
+[1] "PP abf for shared variant: 9.72%"
+[1] ""
+[1] "ENSG00000169118_CSNK1G1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.4200    0.2400    0.2010    0.1150    0.0238 
+[1] "PP abf for shared variant: 2.38%"
+[1] ""
+[1] "ENSG00000171763_SPATA5L1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.35300   0.01630   0.59900   0.02770   0.00421 
+[1] "PP abf for shared variant: 0.421%"
+[1] ""
+[1] "ENSG00000172345_STARD5"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.63700   0.04900   0.28700   0.02210   0.00484 
+[1] "PP abf for shared variant: 0.484%"
+[1] ""
+[1] "ENSG00000188659_ILMN_4387"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.73300   0.03320   0.22000   0.00997   0.00358 
+[1] "PP abf for shared variant: 0.358%"
+[1] ""
+[1] "ENSG00000047578_KIAA0556"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.6050    0.0764    0.2760    0.0348    0.0077 
+[1] "PP abf for shared variant: 0.77%"
+[1] ""
+[1] "ENSG00000063854_HAGH"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.1070    0.0179    0.6980    0.1170    0.0606 
+[1] "PP abf for shared variant: 6.06%"
+[1] ""
+[1] "ENSG00000070761_C16orf80"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.4350    0.1530    0.2930    0.1030    0.0168 
+[1] "PP abf for shared variant: 1.68%"
+[1] ""
+[1] "ENSG00000086504_MRPL28"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.50800   0.04760   0.40100   0.03750   0.00595 
+[1] "PP abf for shared variant: 0.595%"
+[1] ""
+[1] "ENSG00000090857_ILMN_138245"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.6340    0.1250    0.1910    0.0377    0.0126 
+[1] "PP abf for shared variant: 1.26%"
+[1] ""
+[1] "ENSG00000090857_ILMN_8209"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.5910    0.1170    0.2330    0.0460    0.0135 
+[1] "PP abf for shared variant: 1.35%"
+[1] ""
+[1] "ENSG00000103042_ILMN_16502"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.3370    0.1090    0.4050    0.1310    0.0179 
+[1] "PP abf for shared variant: 1.79%"
+[1] ""
+[1] "ENSG00000103111_MON1B"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.05360   0.00843   0.80500   0.12700   0.00673 
+[1] "PP abf for shared variant: 0.673%"
+[1] ""
+[1] "ENSG00000103126_AXIN1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.58000   0.05220   0.33200   0.02990   0.00601 
+[1] "PP abf for shared variant: 0.601%"
+[1] ""
+[1] "ENSG00000103174_NAGPA"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.3420    0.0774    0.4640    0.1050    0.0110 
+[1] "PP abf for shared variant: 1.1%"
+[1] ""
+[1] "ENSG00000103202_DECR2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.37100   0.03520   0.53700   0.05090   0.00564 
+[1] "PP abf for shared variant: 0.564%"
+[1] ""
+[1] "ENSG00000103248_MTHFSD"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.46300   0.08040   0.38200   0.06640   0.00862 
+[1] "PP abf for shared variant: 0.862%"
+[1] ""
+[1] "ENSG00000103275_UBE2I"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.06550   0.01140   0.78100   0.13600   0.00613 
+[1] "PP abf for shared variant: 0.613%"
+[1] ""
+[1] "ENSG00000103540_ILMN_12815"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.2400    0.0680    0.5280    0.1490    0.0148 
+[1] "PP abf for shared variant: 1.48%"
+[1] ""
+[1] "ENSG00000118894_FAM86B1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.19500   0.04500   0.61100   0.14100   0.00722 
+[1] "PP abf for shared variant: 0.722%"
+[1] ""
+[1] "ENSG00000125124_BBS2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 5.78e-05  8.72e-06  8.64e-01  1.30e-01  5.97e-03 
+[1] "PP abf for shared variant: 0.597%"
+[1] ""
+[1] "ENSG00000125170_DOK4"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+    0.418     0.146     0.308     0.107     0.021 
+[1] "PP abf for shared variant: 2.1%"
+[1] ""
+[1] "ENSG00000127561_SYNGR3"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.0759    0.0121    0.7740    0.1240    0.0139 
+[1] "PP abf for shared variant: 1.39%"
+[1] ""
+[1] "ENSG00000127586_CHTF18"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.39700   0.05370   0.47800   0.06470   0.00696 
+[1] "PP abf for shared variant: 0.696%"
+[1] ""
+[1] "ENSG00000129925_TMEM8"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.18600   0.01750   0.72400   0.06800   0.00524 
+[1] "PP abf for shared variant: 0.524%"
+[1] ""
+[1] "ENSG00000130731_C16orf13"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.52900   0.06650   0.35200   0.04420   0.00756 
+[1] "PP abf for shared variant: 0.756%"
+[1] ""
+[1] "ENSG00000131148_COX4NB"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.3480    0.1740    0.3070    0.1540    0.0171 
+[1] "PP abf for shared variant: 1.71%"
+[1] ""
+[1] "ENSG00000132603_NIP7"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.0828    0.0176    0.5430    0.1150    0.2420 
+[1] "PP abf for shared variant: 24.2%"
+[1] ""
+[1] "ENSG00000135698_MPHOSPH6"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.00499   0.14600   0.02760   0.80900   0.01190 
+[1] "PP abf for shared variant: 1.19%"
+[1] ""
+[1] "ENSG00000140829_DHX38"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.08160   0.00565   0.82500   0.05710   0.03060 
+[1] "PP abf for shared variant: 3.06%"
+[1] ""
+[1] "ENSG00000141076_CIRH1A"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.4500    0.2060    0.2150    0.0985    0.0308 
+[1] "PP abf for shared variant: 3.08%"
+[1] ""
+[1] "ENSG00000153406_NMRAL1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.52700   0.07100   0.34700   0.04670   0.00802 
+[1] "PP abf for shared variant: 0.802%"
+[1] ""
+[1] "ENSG00000155393_HEATR3"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.27200   0.02010   0.65300   0.04840   0.00737 
+[1] "PP abf for shared variant: 0.737%"
+[1] ""
+[1] "ENSG00000159461_AMFR"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.05e-04  1.86e-05  8.32e-01  1.48e-01  1.96e-02 
+[1] "PP abf for shared variant: 1.96%"
+[1] ""
+[1] "ENSG00000161981_C16orf33"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.26200   0.01760   0.67000   0.04500   0.00585 
+[1] "PP abf for shared variant: 0.585%"
+[1] ""
+[1] "ENSG00000162076_FLYWCH2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.44600   0.03680   0.47300   0.03900   0.00528 
+[1] "PP abf for shared variant: 0.528%"
+[1] ""
+[1] "ENSG00000166451_CENPN"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.000394  0.011500  0.032500  0.952000  0.003560 
+[1] "PP abf for shared variant: 0.356%"
+[1] ""
+[1] "ENSG00000166501_PRKCB1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.4000    0.0898    0.4030    0.0903    0.0168 
+[1] "PP abf for shared variant: 1.68%"
+[1] ""
+[1] "ENSG00000167515_TRAPPC2L"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.3370    0.1670    0.3200    0.1580    0.0175 
+[1] "PP abf for shared variant: 1.75%"
+[1] ""
+[1] "ENSG00000167526_RPL13"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.2340    0.0897    0.3240    0.1240    0.2290 
+[1] "PP abf for shared variant: 22.9%"
+[1] ""
+[1] "ENSG00000168748_CA7"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.67600   0.07830   0.21300   0.02470   0.00812 
+[1] "PP abf for shared variant: 0.812%"
+[1] ""
+[1] "ENSG00000168807_SNTB2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.2890    0.1160    0.3590    0.1440    0.0927 
+[1] "PP abf for shared variant: 9.27%"
+[1] ""
+[1] "ENSG00000169682_SPNS1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.0329    0.0123    0.6850    0.2570    0.0135 
+[1] "PP abf for shared variant: 1.35%"
+[1] ""
+[1] "ENSG00000171490_RSL1D1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.46900   0.09080   0.36100   0.06990   0.00926 
+[1] "PP abf for shared variant: 0.926%"
+[1] ""
+[1] "ENSG00000174177_ILMN_138331"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.1700    0.0833    0.4930    0.2420    0.0122 
+[1] "PP abf for shared variant: 1.22%"
+[1] ""
+[1] "ENSG00000175643_C16orf75"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.23100   0.02190   0.67600   0.06420   0.00662 
+[1] "PP abf for shared variant: 0.662%"
+[1] ""
+[1] "ENSG00000178952_TUFM"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.46600   0.03100   0.46400   0.03080   0.00836 
+[1] "PP abf for shared variant: 0.836%"
+[1] ""
+[1] "ENSG00000180185_FAHD1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 2.32e-05  3.86e-06  8.33e-01  1.38e-01  2.83e-02 
+[1] "PP abf for shared variant: 2.83%"
+[1] ""
+[1] "ENSG00000182108_ILMN_32084"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.29600   0.03740   0.58600   0.07400   0.00618 
+[1] "PP abf for shared variant: 0.618%"
+[1] ""
+[1] "ENSG00000186153_WWOX"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.19700   0.03930   0.63000   0.12500   0.00815 
+[1] "PP abf for shared variant: 0.815%"
+[1] ""
+[1] "ENSG00000187741_FANCA"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 7.76e-08  1.84e-08  8.02e-01  1.91e-01  7.69e-03 
+[1] "PP abf for shared variant: 0.769%"
+[1] ""
+[1] "ENSG00000197912_SPG7"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.002110  0.000823  0.709000  0.277000  0.010800 
+[1] "PP abf for shared variant: 1.08%"
+[1] ""
+[1] "ENSG00000002919_SNX11"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.00216   0.09370   0.02020   0.87300   0.01090 
+[1] "PP abf for shared variant: 1.09%"
+[1] ""
+[1] "ENSG00000005156_LIG3"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.31200   0.02880   0.59800   0.05530   0.00607 
+[1] "PP abf for shared variant: 0.607%"
+[1] ""
+[1] "ENSG00000006282_SPATA20"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.000971  0.004620  0.087400  0.415000  0.492000 
+[1] "PP abf for shared variant: 49.2%"
+[1] ""
+[1] "ENSG00000007312_CD79B"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.0245    0.0259    0.4560    0.4830    0.0107 
+[1] "PP abf for shared variant: 1.07%"
+[1] ""
+[1] "ENSG00000011052_NME1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.1070    0.5200    0.0559    0.2720    0.0448 
+[1] "PP abf for shared variant: 4.48%"
+[1] ""
+[1] "ENSG00000011295_TTC19"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.11300   0.00837   0.81400   0.06050   0.00478 
+[1] "PP abf for shared variant: 0.478%"
+[1] ""
+[1] "ENSG00000012048_BRCA1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 3.42e-05  3.18e-06  8.91e-01  8.26e-02  2.67e-02 
+[1] "PP abf for shared variant: 2.67%"
+[1] ""
+[1] "ENSG00000035862_TIMP2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.3060    0.2810    0.2020    0.1850    0.0265 
+[1] "PP abf for shared variant: 2.65%"
+[1] ""
+[1] "ENSG00000055483_USP36"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 5.44e-06  4.98e-06  1.23e-01  1.12e-01  7.65e-01 
+[1] "PP abf for shared variant: 76.5%"
+[1] ""
+[1] "ENSG00000068097_HEATR6"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.1310    0.5300    0.0578    0.2340    0.0479 
+[1] "PP abf for shared variant: 4.79%"
+[1] ""
+[1] "ENSG00000073584_SMARCE1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.05700   0.00596   0.84200   0.08800   0.00702 
+[1] "PP abf for shared variant: 0.702%"
+[1] ""
+[1] "ENSG00000091640_SPAG7"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.0230    0.5520    0.0142    0.3400    0.0702 
+[1] "PP abf for shared variant: 7.02%"
+[1] ""
+[1] "ENSG00000108262_GIT1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.3640    0.3110    0.1470    0.1260    0.0524 
+[1] "PP abf for shared variant: 5.24%"
+[1] ""
+[1] "ENSG00000108278_ZNHIT3"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.2570    0.0147    0.6740    0.0386    0.0162 
+[1] "PP abf for shared variant: 1.62%"
+[1] ""
+[1] "ENSG00000108352_RAPGEFL1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.1780    0.0215    0.7080    0.0853    0.0075 
+[1] "PP abf for shared variant: 0.75%"
+[1] ""
+[1] "ENSG00000108384_RAD51C"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.01490   0.06430   0.17100   0.74100   0.00893 
+[1] "PP abf for shared variant: 0.893%"
+[1] ""
+[1] "ENSG00000108395_TRIM37"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.1150    0.4910    0.0614    0.2620    0.0707 
+[1] "PP abf for shared variant: 7.07%"
+[1] ""
+[1] "ENSG00000108433_GOSR2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.17500   0.01800   0.72300   0.07450   0.00881 
+[1] "PP abf for shared variant: 0.881%"
+[1] ""
+[1] "ENSG00000108559_NUP88"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.30500   0.07000   0.50100   0.11500   0.00921 
+[1] "PP abf for shared variant: 0.921%"
+[1] ""
+[1] "ENSG00000108592_FTSJ3"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.0144    0.0152    0.4610    0.4880    0.0215 
+[1] "PP abf for shared variant: 2.15%"
+[1] ""
+[1] "ENSG00000108639_SYNGR2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.2510    0.2320    0.2580    0.2380    0.0219 
+[1] "PP abf for shared variant: 2.19%"
+[1] ""
+[1] "ENSG00000108651_UTP6"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.38100   0.04020   0.51600   0.05440   0.00878 
+[1] "PP abf for shared variant: 0.878%"
+[1] ""
+[1] "ENSG00000108666_C17orf75"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.10300   0.01200   0.78900   0.09180   0.00479 
+[1] "PP abf for shared variant: 0.479%"
+[1] ""
+[1] "ENSG00000108771_DHX58"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.30500   0.03010   0.59900   0.05900   0.00735 
+[1] "PP abf for shared variant: 0.735%"
+[1] ""
+[1] "ENSG00000108826_MRPL27"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.00356   0.01690   0.17000   0.80600   0.00383 
+[1] "PP abf for shared variant: 0.383%"
+[1] ""
+[1] "ENSG00000108960_MMD"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.54900   0.04830   0.36500   0.03210   0.00514 
+[1] "PP abf for shared variant: 0.514%"
+[1] ""
+[1] "ENSG00000125319_C17orf53"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.32100   0.02940   0.58800   0.05370   0.00758 
+[1] "PP abf for shared variant: 0.758%"
+[1] ""
+[1] "ENSG00000125445_MRPS7"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.53700   0.06550   0.34800   0.04240   0.00768 
+[1] "PP abf for shared variant: 0.768%"
+[1] ""
+[1] "ENSG00000126581_BECN1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.6450    0.0573    0.2650    0.0235    0.0094 
+[1] "PP abf for shared variant: 0.94%"
+[1] ""
+[1] "ENSG00000132141_CCT6B"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.42400   0.05100   0.46200   0.05560   0.00703 
+[1] "PP abf for shared variant: 0.703%"
+[1] ""
+[1] "ENSG00000132507_EIF5A"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.75e-05  2.87e-06  8.54e-01  1.40e-01  6.01e-03 
+[1] "PP abf for shared variant: 0.601%"
+[1] ""
+[1] "ENSG00000141560_ILMN_14939"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.17400   0.01440   0.74300   0.06140   0.00721 
+[1] "PP abf for shared variant: 0.721%"
+[1] ""
+[1] "ENSG00000141696_ILMN_21605"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.54100   0.06170   0.35100   0.04000   0.00669 
+[1] "PP abf for shared variant: 0.669%"
+[1] ""
+[1] "ENSG00000141698_NT5C3L"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 3.04e-04  3.46e-05  8.93e-01  1.01e-01  5.37e-03 
+[1] "PP abf for shared variant: 0.537%"
+[1] ""
+[1] "ENSG00000141720_PIP4K2B"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.000272  0.527000  0.000186  0.360000  0.112000 
+[1] "PP abf for shared variant: 11.2%"
+[1] ""
+[1] "ENSG00000159199_ATP5G1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 3.08e-07  1.33e-05  1.75e-02  7.57e-01  2.26e-01 
+[1] "PP abf for shared variant: 22.6%"
+[1] ""
+[1] "ENSG00000161326_DUSP14"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.000218  0.422000  0.000281  0.545000  0.032300 
+[1] "PP abf for shared variant: 3.23%"
+[1] ""
+[1] "ENSG00000161664_ASB16"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.62600   0.05660   0.28600   0.02580   0.00587 
+[1] "PP abf for shared variant: 0.587%"
+[1] ""
+[1] "ENSG00000166260_COX11"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.08170   0.00735   0.82800   0.07450   0.00825 
+[1] "PP abf for shared variant: 0.825%"
+[1] ""
+[1] "ENSG00000166750_SLFN5"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 6.78e-05  6.38e-06  9.08e-01  8.55e-02  6.69e-03 
+[1] "PP abf for shared variant: 0.669%"
+[1] ""
+[1] "ENSG00000167083_GNGT2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.00933   0.40300   0.01240   0.53700   0.03830 
+[1] "PP abf for shared variant: 3.83%"
+[1] ""
+[1] "ENSG00000167720_SRR"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.17000   0.02280   0.70500   0.09490   0.00714 
+[1] "PP abf for shared variant: 0.714%"
+[1] ""
+[1] "ENSG00000167895_TMC8"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.3040    0.2820    0.2020    0.1870    0.0254 
+[1] "PP abf for shared variant: 2.54%"
+[1] ""
+[1] "ENSG00000168646_AXIN2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.48000   0.03540   0.44700   0.03290   0.00471 
+[1] "PP abf for shared variant: 0.471%"
+[1] ""
+[1] "ENSG00000170291_C17orf81"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.04e-04  1.69e-05  3.89e-01  6.23e-02  5.49e-01 
+[1] "PP abf for shared variant: 54.9%"
+[1] ""
+[1] "ENSG00000172057_ORMDL3"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.03620   0.00369   0.86500   0.08800   0.00707 
+[1] "PP abf for shared variant: 0.707%"
+[1] ""
+[1] "ENSG00000172301_C17orf79"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.16100   0.01700   0.73700   0.07780   0.00722 
+[1] "PP abf for shared variant: 0.722%"
+[1] ""
+[1] "ENSG00000176974_SHMT1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.0467    0.0470    0.4380    0.4410    0.0269 
+[1] "PP abf for shared variant: 2.69%"
+[1] ""
+[1] "ENSG00000177370_TIMM22"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 2.13e-04  2.69e-05  7.83e-01  9.90e-02  1.17e-01 
+[1] "PP abf for shared variant: 11.7%"
+[1] ""
+[1] "ENSG00000177602_GSG2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.0118    0.2850    0.0258    0.6210    0.0559 
+[1] "PP abf for shared variant: 5.59%"
+[1] ""
+[1] "ENSG00000181031_RPH3AL"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.5210    0.0363    0.3970    0.0276    0.0181 
+[1] "PP abf for shared variant: 1.81%"
+[1] ""
+[1] "ENSG00000182534_MXRA7"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.45100   0.06740   0.41200   0.06150   0.00838 
+[1] "PP abf for shared variant: 0.838%"
+[1] ""
+[1] "ENSG00000185262_FAM100B"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.41000   0.05970   0.45400   0.06610   0.00999 
+[1] "PP abf for shared variant: 0.999%"
+[1] ""
+[1] "ENSG00000185504_C17orf70"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.36700   0.05810   0.48900   0.07750   0.00829 
+[1] "PP abf for shared variant: 0.829%"
+[1] ""
+[1] "ENSG00000187607_ZNF286A"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.43400   0.04080   0.47500   0.04470   0.00594 
+[1] "PP abf for shared variant: 0.594%"
+[1] ""
+[1] "ENSG00000187624_ILMN_7731"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 6.86e-09  5.99e-10  9.06e-01  7.91e-02  1.44e-02 
+[1] "PP abf for shared variant: 1.44%"
+[1] ""
+[1] "ENSG00000205309_NT5M"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.3200    0.3240    0.1620    0.1630    0.0312 
+[1] "PP abf for shared variant: 3.12%"
+[1] ""
+[1] "ENSG00000213246_SUPT4H1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.1160    0.4850    0.0641    0.2670    0.0673 
+[1] "PP abf for shared variant: 6.73%"
+[1] ""
+[1] "ENSG00000214087_ARL16"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.02360   0.00369   0.79700   0.12400   0.05130 
+[1] "PP abf for shared variant: 5.13%"
+[1] ""
+[1] "ENSG00000066926_FECH"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.53500   0.07110   0.34100   0.04530   0.00788 
+[1] "PP abf for shared variant: 0.788%"
+[1] ""
+[1] "ENSG00000082212_ME2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.47900   0.03030   0.45800   0.02890   0.00442 
+[1] "PP abf for shared variant: 0.442%"
+[1] ""
+[1] "ENSG00000091164_TXNL1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.5020    0.1180    0.2980    0.0699    0.0123 
+[1] "PP abf for shared variant: 1.23%"
+[1] ""
+[1] "ENSG00000101557_USP14"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.4720    0.0395    0.4150    0.0347    0.0388 
+[1] "PP abf for shared variant: 3.88%"
+[1] ""
+[1] "ENSG00000101752_MIB1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.42200   0.02180   0.52400   0.02710   0.00443 
+[1] "PP abf for shared variant: 0.443%"
+[1] ""
+[1] "ENSG00000132199_ENOSF1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.15600   0.01600   0.74600   0.07670   0.00614 
+[1] "PP abf for shared variant: 0.614%"
+[1] ""
+[1] "ENSG00000141428_C18orf21"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.38700   0.06030   0.47000   0.07320   0.00862 
+[1] "PP abf for shared variant: 0.862%"
+[1] ""
+[1] "ENSG00000154889_MPPE1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.44700   0.07320   0.40500   0.06630   0.00786 
+[1] "PP abf for shared variant: 0.786%"
+[1] ""
+[1] "ENSG00000158270_COLEC12"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.62800   0.05710   0.28300   0.02570   0.00583 
+[1] "PP abf for shared variant: 0.583%"
+[1] ""
+[1] "ENSG00000166401_SERPINB8"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.23400   0.01820   0.68900   0.05360   0.00538 
+[1] "PP abf for shared variant: 0.538%"
+[1] ""
+[1] "ENSG00000167220_HDHD2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.56800   0.04530   0.35100   0.02800   0.00765 
+[1] "PP abf for shared variant: 0.765%"
+[1] ""
+[1] "ENSG00000168461_RAB31"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.51200   0.05630   0.38400   0.04220   0.00574 
+[1] "PP abf for shared variant: 0.574%"
+[1] ""
+[1] "ENSG00000172466_ZNF24"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.63500   0.06440   0.26600   0.02700   0.00761 
+[1] "PP abf for shared variant: 0.761%"
+[1] ""
+[1] "ENSG00000176014_TUBB6"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.3230    0.0540    0.5250    0.0880    0.0103 
+[1] "PP abf for shared variant: 1.03%"
+[1] ""
+[1] "ENSG00000177150_C18orf19"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.32200   0.02900   0.59100   0.05320   0.00571 
+[1] "PP abf for shared variant: 0.571%"
+[1] ""
+[1] "ENSG00000197563_PIGN"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.0651    0.0208    0.6820    0.2180    0.0141 
+[1] "PP abf for shared variant: 1.41%"
+[1] ""
+[1] "ENSG00000198795_ZNF521"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.61200   0.06020   0.29300   0.02880   0.00599 
+[1] "PP abf for shared variant: 0.599%"
+[1] ""
+[1] "ENSG00000215429_ILMN_33941"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.13e-05  8.81e-07  9.23e-01  7.18e-02  5.31e-03 
+[1] "PP abf for shared variant: 0.531%"
+[1] ""
+[1] "ENSG00000064666_CNN2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.51400   0.06120   0.37400   0.04460   0.00644 
+[1] "PP abf for shared variant: 0.644%"
+[1] ""
+[1] "ENSG00000065000_AP3D1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.5200    0.0544    0.3750    0.0392    0.0115 
+[1] "PP abf for shared variant: 1.15%"
+[1] ""
+[1] "ENSG00000065268_WDR18"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.001100  0.000128  0.889000  0.103000  0.007190 
+[1] "PP abf for shared variant: 0.719%"
+[1] ""
+[1] "ENSG00000073050_XRCC1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 7.03e-04  6.22e-05  9.14e-01  8.09e-02  4.83e-03 
+[1] "PP abf for shared variant: 0.483%"
+[1] ""
+[1] "ENSG00000076924_XAB2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.3270    0.1400    0.3630    0.1550    0.0151 
+[1] "PP abf for shared variant: 1.51%"
+[1] ""
+[1] "ENSG00000083828_ZNF586"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.34300   0.04350   0.53900   0.06840   0.00661 
+[1] "PP abf for shared variant: 0.661%"
+[1] ""
+[1] "ENSG00000095932_ILMN_32047"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.5350    0.0611    0.3570    0.0408    0.0061 
+[1] "PP abf for shared variant: 0.61%"
+[1] ""
+[1] "ENSG00000104946_TBC1D17"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.57100   0.07130   0.31200   0.03900   0.00724 
+[1] "PP abf for shared variant: 0.724%"
+[1] ""
+[1] "ENSG00000104953_TLE6"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.50900   0.05690   0.38500   0.04300   0.00597 
+[1] "PP abf for shared variant: 0.597%"
+[1] ""
+[1] "ENSG00000105053_VRK3"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.30300   0.03810   0.57800   0.07260   0.00776 
+[1] "PP abf for shared variant: 0.776%"
+[1] ""
+[1] "ENSG00000105132_ZNF550"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.30700   0.04730   0.55300   0.08530   0.00772 
+[1] "PP abf for shared variant: 0.772%"
+[1] ""
+[1] "ENSG00000105198_LGALS13"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.57000   0.08910   0.28700   0.04490   0.00937 
+[1] "PP abf for shared variant: 0.937%"
+[1] ""
+[1] "ENSG00000105404_RABAC1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.39300   0.03150   0.52800   0.04230   0.00589 
+[1] "PP abf for shared variant: 0.589%"
+[1] ""
+[1] "ENSG00000105697_HAMP"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.56400   0.04570   0.35600   0.02890   0.00551 
+[1] "PP abf for shared variant: 0.551%"
+[1] ""
+[1] "ENSG00000105698_USF2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.4290    0.0349    0.4900    0.0398    0.0054 
+[1] "PP abf for shared variant: 0.54%"
+[1] ""
+[1] "ENSG00000118046_STK11"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.5170    0.0682    0.3600    0.0474    0.0073 
+[1] "PP abf for shared variant: 0.73%"
+[1] ""
+[1] "ENSG00000121289_CCDC123"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.01060   0.00108   0.87000   0.08870   0.02920 
+[1] "PP abf for shared variant: 2.92%"
+[1] ""
+[1] "ENSG00000121406_ZNF549"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.52900   0.08710   0.32200   0.05300   0.00886 
+[1] "PP abf for shared variant: 0.886%"
+[1] ""
+[1] "ENSG00000125656_CLPP"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+    0.427     0.165     0.283     0.109     0.016 
+[1] "PP abf for shared variant: 1.6%"
+[1] ""
+[1] "ENSG00000125753_VASP"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 9.46e-08  5.90e-04  1.60e-04  9.99e-01  5.22e-05 
+[1] "PP abf for shared variant: 0.00522%"
+[1] ""
+[1] "ENSG00000125910_EDG6"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.47600   0.05260   0.41900   0.04640   0.00601 
+[1] "PP abf for shared variant: 0.601%"
+[1] ""
+[1] "ENSG00000126246_TMEM149"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.0152    0.0012    0.9020    0.0710    0.0102 
+[1] "PP abf for shared variant: 1.02%"
+[1] ""
+[1] "ENSG00000129933_KIAA0892"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.1290    0.0270    0.6530    0.1370    0.0537 
+[1] "PP abf for shared variant: 5.37%"
+[1] ""
+[1] "ENSG00000130312_MRPL34"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.3840    0.0374    0.5160    0.0504    0.0124 
+[1] "PP abf for shared variant: 1.24%"
+[1] ""
+[1] "ENSG00000141934_PPAP2C"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.61900   0.05330   0.29700   0.02560   0.00567 
+[1] "PP abf for shared variant: 0.567%"
+[1] ""
+[1] "ENSG00000141994_DUS3L"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.05000   0.01890   0.67100   0.25300   0.00718 
+[1] "PP abf for shared variant: 0.718%"
+[1] ""
+[1] "ENSG00000142046_BCKDHA"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.60000   0.05540   0.31000   0.02860   0.00648 
+[1] "PP abf for shared variant: 0.648%"
+[1] ""
+[1] "ENSG00000160113_NR2F6"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.56500   0.05370   0.34300   0.03260   0.00573 
+[1] "PP abf for shared variant: 0.573%"
+[1] ""
+[1] "ENSG00000161558_TMEM143"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.44900   0.05580   0.43400   0.05380   0.00723 
+[1] "PP abf for shared variant: 0.723%"
+[1] ""
+[1] "ENSG00000167766_ZNF83"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.22300   0.06120   0.55400   0.15200   0.00933 
+[1] "PP abf for shared variant: 0.933%"
+[1] ""
+[1] "ENSG00000167807_ILMN_19980"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.59600   0.04930   0.32300   0.02670   0.00519 
+[1] "PP abf for shared variant: 0.519%"
+[1] ""
+[1] "ENSG00000170866_LILRA3"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.3350    0.1910    0.2890    0.1650    0.0199 
+[1] "PP abf for shared variant: 1.99%"
+[1] ""
+[1] "ENSG00000170949_ZNF160"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.25200   0.05480   0.56200   0.12200   0.00903 
+[1] "PP abf for shared variant: 0.903%"
+[1] ""
+[1] "ENSG00000175691_ZNF77"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.52200   0.05900   0.37000   0.04180   0.00685 
+[1] "PP abf for shared variant: 0.685%"
+[1] ""
+[1] "ENSG00000176232_ZNF283"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.51900   0.04570   0.39500   0.03470   0.00497 
+[1] "PP abf for shared variant: 0.497%"
+[1] ""
+[1] "ENSG00000178229_ZNF543"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.22500   0.03810   0.62400   0.10600   0.00762 
+[1] "PP abf for shared variant: 0.762%"
+[1] ""
+[1] "ENSG00000182013_ILMN_30225"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.0382    0.4100    0.0440    0.4730    0.0350 
+[1] "PP abf for shared variant: 3.5%"
+[1] ""
+[1] "ENSG00000183617_MRPL54"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.001820  0.000217  0.888000  0.106000  0.004300 
+[1] "PP abf for shared variant: 0.43%"
+[1] ""
+[1] "ENSG00000186111_PIP5K1C"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.4390    0.0517    0.4460    0.0525    0.0111 
+[1] "PP abf for shared variant: 1.11%"
+[1] ""
+[1] "ENSG00000188000_OR7D2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.52000   0.03910   0.40500   0.03050   0.00511 
+[1] "PP abf for shared variant: 0.511%"
+[1] ""
+[1] "ENSG00000188321_ZNF559"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.58200   0.04380   0.34400   0.02580   0.00479 
+[1] "PP abf for shared variant: 0.479%"
+[1] ""
+[1] "ENSG00000189052_ILMN_17361"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.56000   0.07110   0.32100   0.04080   0.00715 
+[1] "PP abf for shared variant: 0.715%"
+[1] ""
+[1] "ENSG00000189144_ZNF573"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.43300   0.02430   0.50900   0.02860   0.00448 
+[1] "PP abf for shared variant: 0.448%"
+[1] ""
+[1] "ENSG00000196365_LONP1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.3900    0.1490    0.3230    0.1230    0.0147 
+[1] "PP abf for shared variant: 1.47%"
+[1] ""
+[1] "ENSG00000196931_ILMN_36955"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.46100   0.05940   0.42000   0.05410   0.00593 
+[1] "PP abf for shared variant: 0.593%"
+[1] ""
+[1] "ENSG00000197256_ANKRD25"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.58100   0.06200   0.31600   0.03370   0.00753 
+[1] "PP abf for shared variant: 0.753%"
+[1] ""
+[1] "ENSG00000198046_ZNF667"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.50400   0.09750   0.32600   0.06300   0.00948 
+[1] "PP abf for shared variant: 0.948%"
+[1] ""
+[1] "ENSG00000007341_ST7L"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.53e-05  1.32e-06  9.17e-01  7.90e-02  4.43e-03 
+[1] "PP abf for shared variant: 0.443%"
+[1] ""
+[1] "ENSG00000043514_TRIT1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.0103    0.3100    0.0205    0.6190    0.0407 
+[1] "PP abf for shared variant: 4.07%"
+[1] ""
+[1] "ENSG00000049239_H6PD"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.53200   0.04220   0.39000   0.03090   0.00526 
+[1] "PP abf for shared variant: 0.526%"
+[1] ""
+[1] "ENSG00000049247_UTS2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.4900    0.1770    0.2320    0.0839    0.0166 
+[1] "PP abf for shared variant: 1.66%"
+[1] ""
+[1] "ENSG00000058799_YIPF1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.5800    0.0706    0.3050    0.0371    0.0074 
+[1] "PP abf for shared variant: 0.74%"
+[1] ""
+[1] "ENSG00000064886_CHI3L2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.004290  0.000764  0.839000  0.149000  0.006680 
+[1] "PP abf for shared variant: 0.668%"
+[1] ""
+[1] "ENSG00000065135_GNAI3"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.01890   0.00515   0.72300   0.19700   0.05610 
+[1] "PP abf for shared variant: 5.61%"
+[1] ""
+[1] "ENSG00000066185_ZMYND12"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.36200   0.03550   0.54300   0.05320   0.00623 
+[1] "PP abf for shared variant: 0.623%"
+[1] ""
+[1] "ENSG00000067533_RRP15"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.49700   0.07100   0.37200   0.05310   0.00769 
+[1] "PP abf for shared variant: 0.769%"
+[1] ""
+[1] "ENSG00000069275_NUCKS1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.2090    0.0289    0.5910    0.0818    0.0891 
+[1] "PP abf for shared variant: 8.91%"
+[1] ""
+[1] "ENSG00000081692_JMJD4"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.01000   0.00131   0.80800   0.10500   0.07550 
+[1] "PP abf for shared variant: 7.55%"
+[1] ""
+[1] "ENSG00000084072_PPIE"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.000596  0.017900  0.031500  0.948000  0.001670 
+[1] "PP abf for shared variant: 0.167%"
+[1] ""
+[1] "ENSG00000090686_USP48"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.007350  0.000695  0.897000  0.084700  0.009730 
+[1] "PP abf for shared variant: 0.973%"
+[1] ""
+[1] "ENSG00000097046_CDC7"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.45000   0.03830   0.46700   0.03980   0.00555 
+[1] "PP abf for shared variant: 0.555%"
+[1] ""
+[1] "ENSG00000116171_SCP2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.11700   0.00777   0.81500   0.05390   0.00600 
+[1] "PP abf for shared variant: 0.6%"
+[1] ""
+[1] "ENSG00000116199_FAM20B"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.39700   0.03240   0.52000   0.04240   0.00774 
+[1] "PP abf for shared variant: 0.774%"
+[1] ""
+[1] "ENSG00000116455_WDR77"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.00433   0.00076   0.84200   0.14800   0.00567 
+[1] "PP abf for shared variant: 0.567%"
+[1] ""
+[1] "ENSG00000116698_SMG7"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.00465   0.00812   0.32800   0.57300   0.08630 
+[1] "PP abf for shared variant: 8.63%"
+[1] ""
+[1] "ENSG00000116791_CRYZ"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.08930   0.01710   0.74400   0.14200   0.00748 
+[1] "PP abf for shared variant: 0.748%"
+[1] ""
+[1] "ENSG00000116885_C1orf102"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.0953    0.0136    0.7680    0.1090    0.0132 
+[1] "PP abf for shared variant: 1.32%"
+[1] ""
+[1] "ENSG00000117174_C1orf181"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.30100   0.02220   0.62600   0.04620   0.00502 
+[1] "PP abf for shared variant: 0.502%"
+[1] ""
+[1] "ENSG00000117289_TXNIP"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.953000  0.008060  0.038100  0.000321  0.000772 
+[1] "PP abf for shared variant: 0.0772%"
+[1] ""
+[1] "ENSG00000117481_NSUN4"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.03900   0.00855   0.77600   0.17000   0.00681 
+[1] "PP abf for shared variant: 0.681%"
+[1] ""
+[1] "ENSG00000121310_ECHDC2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.26900   0.01810   0.66300   0.04460   0.00553 
+[1] "PP abf for shared variant: 0.553%"
+[1] ""
+[1] "ENSG00000123473_STIL"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.1010    0.0122    0.7840    0.0948    0.0079 
+[1] "PP abf for shared variant: 0.79%"
+[1] ""
+[1] "ENSG00000131697_NPHP4"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.42600   0.07020   0.42600   0.07020   0.00817 
+[1] "PP abf for shared variant: 0.817%"
+[1] ""
+[1] "ENSG00000134184_GSTM1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.08e-06  2.13e-07  8.32e-01  1.64e-01  4.21e-03 
+[1] "PP abf for shared variant: 0.421%"
+[1] ""
+[1] "ENSG00000134262_AP4B1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.64400   0.05400   0.27300   0.02290   0.00628 
+[1] "PP abf for shared variant: 0.628%"
+[1] ""
+[1] "ENSG00000134697_GNL2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.1420    0.0238    0.7040    0.1180    0.0119 
+[1] "PP abf for shared variant: 1.19%"
+[1] ""
+[1] "ENSG00000135778_C1orf57"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.05650   0.00525   0.85200   0.07920   0.00686 
+[1] "PP abf for shared variant: 0.686%"
+[1] ""
+[1] "ENSG00000142632_ARHGEF19"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.15400   0.02120   0.71900   0.09920   0.00645 
+[1] "PP abf for shared variant: 0.645%"
+[1] ""
+[1] "ENSG00000142684_ZNF593"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.4760    0.0515    0.4080    0.0442    0.0206 
+[1] "PP abf for shared variant: 2.06%"
+[1] ""
+[1] "ENSG00000142794_NBPF3"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.44000   0.04390   0.46300   0.04620   0.00634 
+[1] "PP abf for shared variant: 0.634%"
+[1] ""
+[1] "ENSG00000143155_TIPRL"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.003850  0.000681  0.842000  0.149000  0.004280 
+[1] "PP abf for shared variant: 0.428%"
+[1] ""
+[1] "ENSG00000143156_NME7"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.05240   0.00671   0.82900   0.10600   0.00537 
+[1] "PP abf for shared variant: 0.537%"
+[1] ""
+[1] "ENSG00000143194_MAEL"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.4900    0.0837    0.3540    0.0604    0.0125 
+[1] "PP abf for shared variant: 1.25%"
+[1] ""
+[1] "ENSG00000143198_MGST3"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.40700   0.04230   0.49100   0.05110   0.00829 
+[1] "PP abf for shared variant: 0.829%"
+[1] ""
+[1] "ENSG00000143226_FCGR2A"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.07740   0.00597   0.84100   0.06490   0.01080 
+[1] "PP abf for shared variant: 1.08%"
+[1] ""
+[1] "ENSG00000143387_CTSK"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.25600   0.06880   0.52500   0.14100   0.00942 
+[1] "PP abf for shared variant: 0.942%"
+[1] ""
+[1] "ENSG00000143437_ARNT"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.03960   0.00884   0.77400   0.17300   0.00509 
+[1] "PP abf for shared variant: 0.509%"
+[1] ""
+[1] "ENSG00000143537_ADAM15"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.5350    0.0819    0.3230    0.0494    0.0101 
+[1] "PP abf for shared variant: 1.01%"
+[1] ""
+[1] "ENSG00000143569_UBAP2L"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.36800   0.05560   0.49400   0.07480   0.00762 
+[1] "PP abf for shared variant: 0.762%"
+[1] ""
+[1] "ENSG00000143653_SCCPDH"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.49300   0.06680   0.38200   0.05180   0.00712 
+[1] "PP abf for shared variant: 0.712%"
+[1] ""
+[1] "ENSG00000143756_FBXO28"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.002370  0.000257  0.896000  0.097200  0.004540 
+[1] "PP abf for shared variant: 0.454%"
+[1] ""
+[1] "ENSG00000153898_MCOLN2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.01460   0.00127   0.89700   0.07770   0.00937 
+[1] "PP abf for shared variant: 0.937%"
+[1] ""
+[1] "ENSG00000159479_MED8"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.14700   0.00813   0.79400   0.04400   0.00658 
+[1] "PP abf for shared variant: 0.658%"
+[1] ""
+[1] "ENSG00000160714_UBE2Q1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.6480    0.0922    0.2120    0.0301    0.0183 
+[1] "PP abf for shared variant: 1.83%"
+[1] ""
+[1] "ENSG00000162384_C1orf123"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.08650   0.00593   0.84400   0.05790   0.00522 
+[1] "PP abf for shared variant: 0.522%"
+[1] ""
+[1] "ENSG00000162437_RAVER2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.61500   0.06740   0.28000   0.03070   0.00682 
+[1] "PP abf for shared variant: 0.682%"
+[1] ""
+[1] "ENSG00000162551_ALPL"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.56800   0.05600   0.33700   0.03310   0.00597 
+[1] "PP abf for shared variant: 0.597%"
+[1] ""
+[1] "ENSG00000162585_C1orf86"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.38300   0.02920   0.54100   0.04120   0.00544 
+[1] "PP abf for shared variant: 0.544%"
+[1] ""
+[1] "ENSG00000162600_OMA1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.28800   0.03440   0.59800   0.07140   0.00873 
+[1] "PP abf for shared variant: 0.873%"
+[1] ""
+[1] "ENSG00000162604_TM2D1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.61200   0.04040   0.32200   0.02120   0.00436 
+[1] "PP abf for shared variant: 0.436%"
+[1] ""
+[1] "ENSG00000162606_L1TD1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.62200   0.04460   0.30700   0.02200   0.00442 
+[1] "PP abf for shared variant: 0.442%"
+[1] ""
+[1] "ENSG00000162769_FLVCR1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.04630   0.01570   0.69500   0.23600   0.00629 
+[1] "PP abf for shared variant: 0.629%"
+[1] ""
+[1] "ENSG00000162836_ACP6"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.65400   0.07110   0.24200   0.02630   0.00707 
+[1] "PP abf for shared variant: 0.707%"
+[1] ""
+[1] "ENSG00000162885_B3GALNT2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.3870    0.0381    0.5130    0.0506    0.0109 
+[1] "PP abf for shared variant: 1.09%"
+[1] ""
+[1] "ENSG00000168653_NDUFS5"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.000133  0.004010  0.032000  0.963000  0.000571 
+[1] "PP abf for shared variant: 0.0571%"
+[1] ""
+[1] "ENSG00000171488_LRRC8C"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.30400   0.03710   0.58100   0.07080   0.00725 
+[1] "PP abf for shared variant: 0.725%"
+[1] ""
+[1] "ENSG00000171806_C1orf156"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.000433  0.000055  0.878000  0.112000  0.010300 
+[1] "PP abf for shared variant: 1.03%"
+[1] ""
+[1] "ENSG00000175279_CORT"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.63300   0.08730   0.23900   0.03290   0.00833 
+[1] "PP abf for shared variant: 0.833%"
+[1] ""
+[1] "ENSG00000177000_MTHFR"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.44100   0.06580   0.42100   0.06290   0.00948 
+[1] "PP abf for shared variant: 0.948%"
+[1] ""
+[1] "ENSG00000177868_CCDC23"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.2310    0.0213    0.6710    0.0618    0.0142 
+[1] "PP abf for shared variant: 1.42%"
+[1] ""
+[1] "ENSG00000178028_DMAP1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.10800   0.00671   0.82900   0.05130   0.00500 
+[1] "PP abf for shared variant: 0.5%"
+[1] ""
+[1] "ENSG00000184022_OR2T10"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.53800   0.03830   0.39000   0.02770   0.00602 
+[1] "PP abf for shared variant: 0.602%"
+[1] ""
+[1] "ENSG00000185523_ILMN_7435"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.4310    0.1120    0.3510    0.0912    0.0148 
+[1] "PP abf for shared variant: 1.48%"
+[1] ""
+[1] "ENSG00000197622_CDC42SE1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.51000   0.03030   0.42800   0.02540   0.00579 
+[1] "PP abf for shared variant: 0.579%"
+[1] ""
+[1] "ENSG00000197747_S100A10"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.41000   0.02250   0.53100   0.02910   0.00659 
+[1] "PP abf for shared variant: 0.659%"
+[1] ""
+[1] "ENSG00000197780_TAF13"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.3790    0.1010    0.3980    0.1070    0.0146 
+[1] "PP abf for shared variant: 1.46%"
+[1] ""
+[1] "ENSG00000198216_CACNA1E"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.4030    0.0299    0.5230    0.0388    0.0055 
+[1] "PP abf for shared variant: 0.55%"
+[1] ""
+[1] "ENSG00000203666_EFCAB2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.04710   0.00526   0.84600   0.09450   0.00749 
+[1] "PP abf for shared variant: 0.749%"
+[1] ""
+[1] "ENSG00000203965_ILMN_14353"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.34900   0.03590   0.55200   0.05680   0.00623 
+[1] "PP abf for shared variant: 0.623%"
+[1] ""
+[1] "ENSG00000204138_PHACTR4"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.13900   0.00938   0.77500   0.05220   0.02470 
+[1] "PP abf for shared variant: 2.47%"
+[1] ""
+[1] "ENSG00000088766_CRLS1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.00919   0.00124   0.86700   0.11700   0.00562 
+[1] "PP abf for shared variant: 0.562%"
+[1] ""
+[1] "ENSG00000088832_FKBP1A"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.3460    0.1020    0.4170    0.1230    0.0126 
+[1] "PP abf for shared variant: 1.26%"
+[1] ""
+[1] "ENSG00000088833_NSFL1C"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.0702    0.0244    0.6680    0.2320    0.0055 
+[1] "PP abf for shared variant: 0.55%"
+[1] ""
+[1] "ENSG00000100991_TRPC4AP"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 2.04e-06  2.31e-06  3.24e-01  3.67e-01  3.08e-01 
+[1] "PP abf for shared variant: 30.8%"
+[1] ""
+[1] "ENSG00000100994_PYGB"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 6.17e-04  4.88e-05  9.16e-01  7.24e-02  1.13e-02 
+[1] "PP abf for shared variant: 1.13%"
+[1] ""
+[1] "ENSG00000100997_ABHD12"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 2.11e-06  1.62e-07  9.18e-01  7.07e-02  1.13e-02 
+[1] "PP abf for shared variant: 1.13%"
+[1] ""
+[1] "ENSG00000101052_IFT52"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.3010    0.3350    0.1560    0.1740    0.0346 
+[1] "PP abf for shared variant: 3.46%"
+[1] ""
+[1] "ENSG00000101158_TH1L"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.51000   0.05610   0.38300   0.04210   0.00876 
+[1] "PP abf for shared variant: 0.876%"
+[1] ""
+[1] "ENSG00000101161_PRPF6"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.46400   0.04150   0.44800   0.04010   0.00554 
+[1] "PP abf for shared variant: 0.554%"
+[1] ""
+[1] "ENSG00000101182_PSMA7"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.37400   0.03830   0.52800   0.05420   0.00529 
+[1] "PP abf for shared variant: 0.529%"
+[1] ""
+[1] "ENSG00000101190_TCFL5"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.2490    0.0295    0.6350    0.0750    0.0115 
+[1] "PP abf for shared variant: 1.15%"
+[1] ""
+[1] "ENSG00000101220_C20orf27"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.54800   0.05970   0.34800   0.03790   0.00615 
+[1] "PP abf for shared variant: 0.615%"
+[1] ""
+[1] "ENSG00000101311_C20orf42"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.55200   0.07520   0.32200   0.04380   0.00701 
+[1] "PP abf for shared variant: 0.701%"
+[1] ""
+[1] "ENSG00000101343_CRNKL1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.006500  0.000521  0.914000  0.073300  0.005360 
+[1] "PP abf for shared variant: 0.536%"
+[1] ""
+[1] "ENSG00000124193_SFRS6"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.2010    0.2240    0.2610    0.2910    0.0228 
+[1] "PP abf for shared variant: 2.28%"
+[1] ""
+[1] "ENSG00000125821_DTD1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.4460    0.0328    0.4750    0.0349    0.0106 
+[1] "PP abf for shared variant: 1.06%"
+[1] ""
+[1] "ENSG00000125870_SNRPB2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.56200   0.04900   0.35300   0.03070   0.00488 
+[1] "PP abf for shared variant: 0.488%"
+[1] ""
+[1] "ENSG00000125878_TCF15"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.60000   0.06920   0.29100   0.03350   0.00676 
+[1] "PP abf for shared variant: 0.676%"
+[1] ""
+[1] "ENSG00000125977_EIF2S2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.00374   0.00489   0.11100   0.14400   0.73600 
+[1] "PP abf for shared variant: 73.6%"
+[1] ""
+[1] "ENSG00000166948_TGM6"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.4610    0.1440    0.2900    0.0904    0.0144 
+[1] "PP abf for shared variant: 1.44%"
+[1] ""
+[1] "ENSG00000214078_CPNE1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.0574    0.0316    0.5010    0.2760    0.1340 
+[1] "PP abf for shared variant: 13.4%"
+[1] ""
+[1] "ENSG00000154719_MRPL39"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.4060    0.0408    0.4880    0.0491    0.0159 
+[1] "PP abf for shared variant: 1.59%"
+[1] ""
+[1] "ENSG00000156261_CCT8"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+    0.302     0.112     0.335     0.124     0.126 
+[1] "PP abf for shared variant: 12.6%"
+[1] ""
+[1] "ENSG00000160188_RSPH1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.4150    0.0867    0.4030    0.0841    0.0114 
+[1] "PP abf for shared variant: 1.14%"
+[1] ""
+[1] "ENSG00000160193_WDR4"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.4330    0.0896    0.3850    0.0796    0.0135 
+[1] "PP abf for shared variant: 1.35%"
+[1] ""
+[1] "ENSG00000160194_NDUFV3"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.2920    0.0612    0.5260    0.1100    0.0109 
+[1] "PP abf for shared variant: 1.09%"
+[1] ""
+[1] "ENSG00000160213_CSTB"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.34300   0.06770   0.48400   0.09550   0.00983 
+[1] "PP abf for shared variant: 0.983%"
+[1] ""
+[1] "ENSG00000182362_C21orf57"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.22400   0.02190   0.67900   0.06630   0.00814 
+[1] "PP abf for shared variant: 0.814%"
+[1] ""
+[1] "ENSG00000182852_C21orf121"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.4170    0.1190    0.3520    0.1000    0.0114 
+[1] "PP abf for shared variant: 1.14%"
+[1] ""
+[1] "ENSG00000185808_PIGP"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.00340   0.00033   0.89600   0.08690   0.01350 
+[1] "PP abf for shared variant: 1.35%"
+[1] ""
+[1] "ENSG00000025708_ECGF1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.01000   0.51900   0.00814   0.42200   0.04030 
+[1] "PP abf for shared variant: 4.03%"
+[1] ""
+[1] "ENSG00000099940_SNAP29"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.1290    0.0274    0.6860    0.1450    0.0124 
+[1] "PP abf for shared variant: 1.24%"
+[1] ""
+[1] "ENSG00000100033_PRODH"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.4420    0.1690    0.2690    0.1030    0.0168 
+[1] "PP abf for shared variant: 1.68%"
+[1] ""
+[1] "ENSG00000100092_SH3BP1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.08180   0.00748   0.82400   0.07540   0.01140 
+[1] "PP abf for shared variant: 1.14%"
+[1] ""
+[1] "ENSG00000100101_NOL12"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.24000   0.02330   0.66300   0.06430   0.00974 
+[1] "PP abf for shared variant: 0.974%"
+[1] ""
+[1] "ENSG00000100162_CENPM"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.53500   0.04380   0.38400   0.03140   0.00595 
+[1] "PP abf for shared variant: 0.595%"
+[1] ""
+[1] "ENSG00000100266_PACSIN2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 2.37e-04  2.51e-05  8.99e-01  9.53e-02  5.01e-03 
+[1] "PP abf for shared variant: 0.501%"
+[1] ""
+[1] "ENSG00000100296_THOC5"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.000125  0.265000  0.000334  0.709000  0.026000 
+[1] "PP abf for shared variant: 2.6%"
+[1] ""
+[1] "ENSG00000100299_ARSA"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.01190   0.61500   0.00598   0.31000   0.05660 
+[1] "PP abf for shared variant: 5.66%"
+[1] ""
+[1] "ENSG00000100304_TTLL12"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.4240    0.1180    0.3450    0.0960    0.0171 
+[1] "PP abf for shared variant: 1.71%"
+[1] ""
+[1] "ENSG00000100321_SYNGR1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.005930  0.000592  0.897000  0.089500  0.007360 
+[1] "PP abf for shared variant: 0.736%"
+[1] ""
+[1] "ENSG00000100330_MTMR3"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.000142  0.302000  0.000315  0.669000  0.028600 
+[1] "PP abf for shared variant: 2.86%"
+[1] ""
+[1] "ENSG00000100347_SAMM50"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.2350    0.0703    0.4860    0.1450    0.0632 
+[1] "PP abf for shared variant: 6.32%"
+[1] ""
+[1] "ENSG00000100417_PMM1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.03320   0.00283   0.88200   0.07540   0.00617 
+[1] "PP abf for shared variant: 0.617%"
+[1] ""
+[1] "ENSG00000128408_RIBC2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.10300   0.01440   0.77000   0.10700   0.00535 
+[1] "PP abf for shared variant: 0.535%"
+[1] ""
+[1] "ENSG00000179750_APOBEC3B"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.64400   0.06210   0.26200   0.02530   0.00615 
+[1] "PP abf for shared variant: 0.615%"
+[1] ""
+[1] "ENSG00000184674_GSTT1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.000764  0.000076  0.903000  0.089900  0.005920 
+[1] "PP abf for shared variant: 0.592%"
+[1] ""
+[1] "ENSG00000184983_NDUFA6"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.60800   0.05090   0.31000   0.02590   0.00559 
+[1] "PP abf for shared variant: 0.559%"
+[1] ""
+[1] "ENSG00000185838_GNB1L"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.3200    0.1170    0.4000    0.1460    0.0173 
+[1] "PP abf for shared variant: 1.73%"
+[1] ""
+[1] "ENSG00000188130_MAPK12"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.01020   0.52900   0.00779   0.40400   0.04910 
+[1] "PP abf for shared variant: 4.91%"
+[1] ""
+[1] "ENSG00000189306_ILMN_12816"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.42200   0.04360   0.47800   0.04950   0.00678 
+[1] "PP abf for shared variant: 0.678%"
+[1] ""
+[1] "ENSG00000035141_FAM136A"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.41700   0.06120   0.44900   0.06600   0.00756 
+[1] "PP abf for shared variant: 0.756%"
+[1] ""
+[1] "ENSG00000068878_PSME4"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.27600   0.04490   0.57800   0.09410   0.00752 
+[1] "PP abf for shared variant: 0.752%"
+[1] ""
+[1] "ENSG00000079785_DDX1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.07470   0.00935   0.80900   0.10100   0.00582 
+[1] "PP abf for shared variant: 0.582%"
+[1] ""
+[1] "ENSG00000087338_GMCL1L"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.1990    0.0257    0.6510    0.0840    0.0402 
+[1] "PP abf for shared variant: 4.02%"
+[1] ""
+[1] "ENSG00000115053_NCL"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.58300   0.05510   0.32600   0.03080   0.00572 
+[1] "PP abf for shared variant: 0.572%"
+[1] ""
+[1] "ENSG00000115350_POLE4"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.43900   0.02320   0.50600   0.02680   0.00501 
+[1] "PP abf for shared variant: 0.501%"
+[1] ""
+[1] "ENSG00000115364_MRPL19"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.4290    0.0367    0.4870    0.0417    0.0051 
+[1] "PP abf for shared variant: 0.51%"
+[1] ""
+[1] "ENSG00000115750_TAF1B"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.0659    0.0107    0.7850    0.1280    0.0109 
+[1] "PP abf for shared variant: 1.09%"
+[1] ""
+[1] "ENSG00000115816_CEBPZ"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.3090    0.0334    0.5890    0.0635    0.0055 
+[1] "PP abf for shared variant: 0.55%"
+[1] ""
+[1] "ENSG00000115866_DARS"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.2120    0.0238    0.6780    0.0759    0.0103 
+[1] "PP abf for shared variant: 1.03%"
+[1] ""
+[1] "ENSG00000115934_PPIL3"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.000916  0.000106  0.890000  0.103000  0.005430 
+[1] "PP abf for shared variant: 0.543%"
+[1] ""
+[1] "ENSG00000118640_VAMP8"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.03750   0.00345   0.87400   0.08040   0.00471 
+[1] "PP abf for shared variant: 0.471%"
+[1] ""
+[1] "ENSG00000118961_C2orf43"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.5580    0.0365    0.3770    0.0246    0.0045 
+[1] "PP abf for shared variant: 0.45%"
+[1] ""
+[1] "ENSG00000119878_CRIPT"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.000977  0.000187  0.824000  0.158000  0.017400 
+[1] "PP abf for shared variant: 1.74%"
+[1] ""
+[1] "ENSG00000123983_ACSL3"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.3740    0.0658    0.4670    0.0821    0.0111 
+[1] "PP abf for shared variant: 1.11%"
+[1] ""
+[1] "ENSG00000130414_NDUFA10"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.3800    0.1550    0.3200    0.1300    0.0156 
+[1] "PP abf for shared variant: 1.56%"
+[1] ""
+[1] "ENSG00000132305_IMMT"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.003250  0.000236  0.920000  0.066800  0.009500 
+[1] "PP abf for shared variant: 0.95%"
+[1] ""
+[1] "ENSG00000132313_MRPL35"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.62200   0.04410   0.30700   0.02180   0.00518 
+[1] "PP abf for shared variant: 0.518%"
+[1] ""
+[1] "ENSG00000132329_RAMP1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.4740    0.0482    0.4280    0.0436    0.0059 
+[1] "PP abf for shared variant: 0.59%"
+[1] ""
+[1] "ENSG00000135632_SMYD5"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.69400   0.04110   0.24500   0.01450   0.00475 
+[1] "PP abf for shared variant: 0.475%"
+[1] ""
+[1] "ENSG00000135899_SP110"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.3650    0.0328    0.5170    0.0464    0.0384 
+[1] "PP abf for shared variant: 3.84%"
+[1] ""
+[1] "ENSG00000135951_TSGA10"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.00391   0.00048   0.88300   0.10800   0.00469 
+[1] "PP abf for shared variant: 0.469%"
+[1] ""
+[1] "ENSG00000136718_IMP4"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.62200   0.03690   0.31700   0.01880   0.00501 
+[1] "PP abf for shared variant: 0.501%"
+[1] ""
+[1] "ENSG00000138035_PNPT1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.01920   0.00495   0.77100   0.19900   0.00535 
+[1] "PP abf for shared variant: 0.535%"
+[1] ""
+[1] "ENSG00000138036_DYNC2LI1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 2.10e-06  5.99e-01  1.20e-06  3.41e-01  5.99e-02 
+[1] "PP abf for shared variant: 5.99%"
+[1] ""
+[1] "ENSG00000138095_LRPPRC"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.20e-06  3.42e-01  2.20e-06  6.28e-01  3.05e-02 
+[1] "PP abf for shared variant: 3.05%"
+[1] ""
+[1] "ENSG00000138399_FASTKD1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.52900   0.08130   0.33000   0.05070   0.00802 
+[1] "PP abf for shared variant: 0.802%"
+[1] ""
+[1] "ENSG00000144120_TMEM177"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.3860    0.0607    0.4630    0.0729    0.0179 
+[1] "PP abf for shared variant: 1.79%"
+[1] ""
+[1] "ENSG00000144401_FAM119A"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+    0.285     0.258     0.229     0.207     0.022 
+[1] "PP abf for shared variant: 2.2%"
+[1] ""
+[1] "ENSG00000151665_PIGF"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.04720   0.00903   0.77100   0.14700   0.02590 
+[1] "PP abf for shared variant: 2.59%"
+[1] ""
+[1] "ENSG00000151690_ILMN_5981"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.18700   0.00970   0.75700   0.03920   0.00644 
+[1] "PP abf for shared variant: 0.644%"
+[1] ""
+[1] "ENSG00000158089_GALNT14"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.54100   0.08590   0.31400   0.04980   0.00893 
+[1] "PP abf for shared variant: 0.893%"
+[1] ""
+[1] "ENSG00000163082_SGPP2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.1630    0.0244    0.5390    0.0802    0.1940 
+[1] "PP abf for shared variant: 19.4%"
+[1] ""
+[1] "ENSG00000168385_SEPT2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.33600   0.02430   0.59100   0.04280   0.00583 
+[1] "PP abf for shared variant: 0.583%"
+[1] ""
+[1] "ENSG00000171103_ILMN_29305"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 5.66e-04  4.47e-05  9.21e-01  7.27e-02  5.89e-03 
+[1] "PP abf for shared variant: 0.589%"
+[1] ""
+[1] "ENSG00000171853_TTC15"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.21700   0.04570   0.60300   0.12700   0.00737 
+[1] "PP abf for shared variant: 0.737%"
+[1] ""
+[1] "ENSG00000172954_LYCAT"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.3670    0.0558    0.4810    0.0731    0.0223 
+[1] "PP abf for shared variant: 2.23%"
+[1] ""
+[1] "ENSG00000173272_FAM128A"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.54700   0.03610   0.38600   0.02550   0.00498 
+[1] "PP abf for shared variant: 0.498%"
+[1] ""
+[1] "ENSG00000174501_ILMN_40651"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.05100   0.00404   0.85100   0.06740   0.02650 
+[1] "PP abf for shared variant: 2.65%"
+[1] ""
+[1] "ENSG00000176732_PFN4"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.29500   0.03440   0.59500   0.06930   0.00707 
+[1] "PP abf for shared variant: 0.707%"
+[1] ""
+[1] "ENSG00000182551_ADI1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.42000   0.08700   0.40100   0.08310   0.00913 
+[1] "PP abf for shared variant: 0.913%"
+[1] ""
+[1] "ENSG00000183891_TTC32"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.41900   0.03480   0.49800   0.04140   0.00626 
+[1] "PP abf for shared variant: 0.626%"
+[1] ""
+[1] "ENSG00000196151_WDSUB1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.02880   0.02370   0.51600   0.42500   0.00701 
+[1] "PP abf for shared variant: 0.701%"
+[1] ""
+[1] "ENSG00000196912_KIAA1641"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.2190    0.0189    0.6800    0.0589    0.0236 
+[1] "PP abf for shared variant: 2.36%"
+[1] ""
+[1] "ENSG00000198369_SPRED2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.0313    0.5770    0.0171    0.3160    0.0579 
+[1] "PP abf for shared variant: 5.79%"
+[1] ""
+[1] "ENSG00000213639_PPP1CB"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.27900   0.02170   0.64400   0.05010   0.00564 
+[1] "PP abf for shared variant: 0.564%"
+[1] ""
+[1] "ENSG00000214587_ILMN_36450"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 3.53e-08  7.74e-06  4.53e-03  9.95e-01  2.63e-05 
+[1] "PP abf for shared variant: 0.00263%"
+[1] ""
+[1] "ENSG00000011376_LARS2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.3260    0.0377    0.5570    0.0643    0.0149 
+[1] "PP abf for shared variant: 1.49%"
+[1] ""
+[1] "ENSG00000075975_MKRN2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 3.38e-08  2.26e-01  1.13e-07  7.53e-01  2.13e-02 
+[1] "PP abf for shared variant: 2.13%"
+[1] ""
+[1] "ENSG00000113851_CRBN"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.37700   0.06020   0.47900   0.07650   0.00704 
+[1] "PP abf for shared variant: 0.704%"
+[1] ""
+[1] "ENSG00000114316_USP4"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.63600   0.07010   0.25600   0.02820   0.00985 
+[1] "PP abf for shared variant: 0.985%"
+[1] ""
+[1] "ENSG00000114383_TUSC2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.5540    0.1300    0.2360    0.0553    0.0251 
+[1] "PP abf for shared variant: 2.51%"
+[1] ""
+[1] "ENSG00000114491_UMPS"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.15600   0.01880   0.72900   0.08770   0.00819 
+[1] "PP abf for shared variant: 0.819%"
+[1] ""
+[1] "ENSG00000114742_WDR48"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.07070   0.00660   0.83900   0.07830   0.00492 
+[1] "PP abf for shared variant: 0.492%"
+[1] ""
+[1] "ENSG00000121542_SEC22A"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.26e-07  3.93e-01  1.85e-07  5.76e-01  3.15e-02 
+[1] "PP abf for shared variant: 3.15%"
+[1] ""
+[1] "ENSG00000129055_ANAPC13"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.14e-04  1.64e-05  7.33e-01  1.05e-01  1.62e-01 
+[1] "PP abf for shared variant: 16.2%"
+[1] ""
+[1] "ENSG00000132182_NUP210"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 4.17e-09  1.46e-02  2.81e-07  9.84e-01  1.58e-03 
+[1] "PP abf for shared variant: 0.158%"
+[1] ""
+[1] "ENSG00000144559_C3orf31"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 4.84e-08  3.23e-01  9.71e-08  6.48e-01  2.89e-02 
+[1] "PP abf for shared variant: 2.89%"
+[1] ""
+[1] "ENSG00000145088_EAF2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.00801   0.00105   0.86300   0.11300   0.01490 
+[1] "PP abf for shared variant: 1.49%"
+[1] ""
+[1] "ENSG00000154174_TOMM70A"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.6180    0.0582    0.2900    0.0273    0.0060 
+[1] "PP abf for shared variant: 0.6%"
+[1] ""
+[1] "ENSG00000157017_GHRL"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.47800   0.05960   0.40500   0.05040   0.00701 
+[1] "PP abf for shared variant: 0.701%"
+[1] ""
+[1] "ENSG00000160124_CCDC58"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.91e-10  5.70e-04  3.34e-07  9.99e-01  4.60e-05 
+[1] "PP abf for shared variant: 0.0046%"
+[1] ""
+[1] "ENSG00000163602_RYBP"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.5190    0.0920    0.3190    0.0566    0.0138 
+[1] "PP abf for shared variant: 1.38%"
+[1] ""
+[1] "ENSG00000163864_NMNAT3"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.36500   0.03830   0.53500   0.05600   0.00632 
+[1] "PP abf for shared variant: 0.632%"
+[1] ""
+[1] "ENSG00000164054_ILMN_5730"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.75600   0.03740   0.19200   0.00948   0.00505 
+[1] "PP abf for shared variant: 0.505%"
+[1] ""
+[1] "ENSG00000168297_PXK"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.4890    0.0970    0.3360    0.0666    0.0113 
+[1] "PP abf for shared variant: 1.13%"
+[1] ""
+[1] "ENSG00000168827_GFM1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.07170   0.02520   0.66300   0.23300   0.00715 
+[1] "PP abf for shared variant: 0.715%"
+[1] ""
+[1] "ENSG00000170819_BFSP2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.07170   0.00533   0.85300   0.06340   0.00648 
+[1] "PP abf for shared variant: 0.648%"
+[1] ""
+[1] "ENSG00000172113_NME6"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.4970    0.0286    0.4390    0.0252    0.0101 
+[1] "PP abf for shared variant: 1.01%"
+[1] ""
+[1] "ENSG00000173226_IQCB1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.2250    0.0294    0.6490    0.0848    0.0120 
+[1] "PP abf for shared variant: 1.2%"
+[1] ""
+[1] "ENSG00000178252_WDR6"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.2830    0.0247    0.6280    0.0550    0.0095 
+[1] "PP abf for shared variant: 0.95%"
+[1] ""
+[1] "ENSG00000178750_STX19"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.3490    0.0353    0.4860    0.0489    0.0807 
+[1] "PP abf for shared variant: 8.07%"
+[1] ""
+[1] "ENSG00000180376_CCDC66"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.16900   0.01320   0.75200   0.05880   0.00678 
+[1] "PP abf for shared variant: 0.678%"
+[1] ""
+[1] "ENSG00000182923_CEP63"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.1510    0.0217    0.6240    0.0895    0.1140 
+[1] "PP abf for shared variant: 11.4%"
+[1] ""
+[1] "ENSG00000184203_PPP1R2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.4420    0.1430    0.3040    0.0982    0.0131 
+[1] "PP abf for shared variant: 1.31%"
+[1] ""
+[1] "ENSG00000196455_PIK3R4"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.4210    0.0250    0.5130    0.0304    0.0101 
+[1] "PP abf for shared variant: 1.01%"
+[1] ""
+[1] "ENSG00000197548_ATG7"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 4.68e-06  5.37e-01  3.61e-06  4.14e-01  4.96e-02 
+[1] "PP abf for shared variant: 4.96%"
+[1] ""
+[1] "ENSG00000213533_MUSTN1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.3020    0.0941    0.4390    0.1370    0.0285 
+[1] "PP abf for shared variant: 2.85%"
+[1] ""
+[1] "ENSG00000033178_UBE1L2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.06310   0.01190   0.77300   0.14600   0.00601 
+[1] "PP abf for shared variant: 0.601%"
+[1] ""
+[1] "ENSG00000038002_AGA"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.07320   0.00738   0.82800   0.08350   0.00739 
+[1] "PP abf for shared variant: 0.739%"
+[1] ""
+[1] "ENSG00000056050_C4orf27"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.53600   0.05980   0.35800   0.04000   0.00636 
+[1] "PP abf for shared variant: 0.636%"
+[1] ""
+[1] "ENSG00000059691_PET112L"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.1900    0.0821    0.5010    0.2160    0.0103 
+[1] "PP abf for shared variant: 1.03%"
+[1] ""
+[1] "ENSG00000078177_ILMN_7118"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 7.99e-06  6.68e-07  9.15e-01  7.64e-02  8.88e-03 
+[1] "PP abf for shared variant: 0.888%"
+[1] ""
+[1] "ENSG00000087008_ACOX3"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.27600   0.06520   0.52500   0.12400   0.00902 
+[1] "PP abf for shared variant: 0.902%"
+[1] ""
+[1] "ENSG00000109181_UGT2B10"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.08530   0.00903   0.80800   0.08550   0.01230 
+[1] "PP abf for shared variant: 1.23%"
+[1] ""
+[1] "ENSG00000109323_MANBA"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.00190   0.00126   0.58500   0.39000   0.02150 
+[1] "PP abf for shared variant: 2.15%"
+[1] ""
+[1] "ENSG00000109674_NEIL3"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.48100   0.04930   0.41800   0.04280   0.00824 
+[1] "PP abf for shared variant: 0.824%"
+[1] ""
+[1] "ENSG00000109775_C4orf20"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.00633   0.47200   0.00635   0.47400   0.04220 
+[1] "PP abf for shared variant: 4.22%"
+[1] ""
+[1] "ENSG00000109814_UGDH"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.11500   0.01090   0.79200   0.07520   0.00669 
+[1] "PP abf for shared variant: 0.669%"
+[1] ""
+[1] "ENSG00000118564_FBXL5"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.03750   0.00960   0.75400   0.19300   0.00576 
+[1] "PP abf for shared variant: 0.576%"
+[1] ""
+[1] "ENSG00000121895_TMEM156"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.005540  0.000849  0.857000  0.131000  0.005150 
+[1] "PP abf for shared variant: 0.515%"
+[1] ""
+[1] "ENSG00000125089_SH3TC1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.38900   0.09510   0.40700   0.09940   0.00938 
+[1] "PP abf for shared variant: 0.938%"
+[1] ""
+[1] "ENSG00000128039_ILMN_17863"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.4540    0.0913    0.3610    0.0726    0.0212 
+[1] "PP abf for shared variant: 2.12%"
+[1] ""
+[1] "ENSG00000132465_IGJ"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.5330    0.1090    0.2880    0.0589    0.0112 
+[1] "PP abf for shared variant: 1.12%"
+[1] ""
+[1] "ENSG00000138785_INTS12"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.50300   0.08070   0.35100   0.05630   0.00987 
+[1] "PP abf for shared variant: 0.987%"
+[1] ""
+[1] "ENSG00000145214_DGKQ"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.00464   0.02610   0.14600   0.82000   0.00360 
+[1] "PP abf for shared variant: 0.36%"
+[1] ""
+[1] "ENSG00000145247_OCIAD2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.03440   0.00412   0.78900   0.09440   0.07830 
+[1] "PP abf for shared variant: 7.83%"
+[1] ""
+[1] "ENSG00000145348_ILMN_16160"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.001090  0.000161  0.822000  0.121000  0.056300 
+[1] "PP abf for shared variant: 5.63%"
+[1] ""
+[1] "ENSG00000145439_CBR4"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.58900   0.04050   0.34200   0.02360   0.00439 
+[1] "PP abf for shared variant: 0.439%"
+[1] ""
+[1] "ENSG00000157426_ILMN_5103"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.3740    0.0830    0.4350    0.0965    0.0110 
+[1] "PP abf for shared variant: 1.1%"
+[1] ""
+[1] "ENSG00000163110_PDLIM5"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.00818   0.47000   0.00832   0.47800   0.03640 
+[1] "PP abf for shared variant: 3.64%"
+[1] ""
+[1] "ENSG00000163743_RCHY1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.3810    0.1270    0.3450    0.1150    0.0312 
+[1] "PP abf for shared variant: 3.12%"
+[1] ""
+[1] "ENSG00000164111_ANXA5"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.4620    0.0841    0.3740    0.0680    0.0124 
+[1] "PP abf for shared variant: 1.24%"
+[1] ""
+[1] "ENSG00000164306_CCDC111"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.00336   0.25000   0.00842   0.62800   0.11000 
+[1] "PP abf for shared variant: 11%"
+[1] ""
+[1] "ENSG00000168993_ILMN_30247"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.0919    0.5150    0.0520    0.2910    0.0506 
+[1] "PP abf for shared variant: 5.06%"
+[1] ""
+[1] "ENSG00000170871_KIAA0232"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 2.93e-10  5.33e-01  2.34e-10  4.25e-01  4.24e-02 
+[1] "PP abf for shared variant: 4.24%"
+[1] ""
+[1] "ENSG00000171234_UGT2B7"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 3.46e-04  3.65e-05  9.00e-01  9.48e-02  5.09e-03 
+[1] "PP abf for shared variant: 0.509%"
+[1] ""
+[1] "ENSG00000174130_TLR6"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.31100   0.04800   0.54700   0.08450   0.00909 
+[1] "PP abf for shared variant: 0.909%"
+[1] ""
+[1] "ENSG00000174137_FAM53A"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.0088    0.0491    0.1410    0.7870    0.0141 
+[1] "PP abf for shared variant: 1.41%"
+[1] ""
+[1] "ENSG00000174780_SRP72"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.39000   0.07930   0.43400   0.08820   0.00909 
+[1] "PP abf for shared variant: 0.909%"
+[1] ""
+[1] "ENSG00000179979_CRIPAK"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.0697    0.3910    0.0761    0.4260    0.0374 
+[1] "PP abf for shared variant: 3.74%"
+[1] ""
+[1] "ENSG00000197888_UGT2B17"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.000163  0.000018  0.896000  0.098600  0.005060 
+[1] "PP abf for shared variant: 0.506%"
+[1] ""
+[1] "ENSG00000198498_ILMN_19458"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.45100   0.05700   0.43100   0.05440   0.00708 
+[1] "PP abf for shared variant: 0.708%"
+[1] ""
+[1] "ENSG00000213759_UGT2B11"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 5.72e-04  5.95e-05  9.00e-01  9.37e-02  5.36e-03 
+[1] "PP abf for shared variant: 0.536%"
+[1] ""
+[1] "ENSG00000013561_RNF14"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.24300   0.02390   0.65900   0.06490   0.00962 
+[1] "PP abf for shared variant: 0.962%"
+[1] ""
+[1] "ENSG00000037474_NSUN2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.22000   0.03400   0.64000   0.09910   0.00679 
+[1] "PP abf for shared variant: 0.679%"
+[1] ""
+[1] "ENSG00000047188_YTHDC2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.0436    0.3700    0.0581    0.4930    0.0346 
+[1] "PP abf for shared variant: 3.46%"
+[1] ""
+[1] "ENSG00000063438_AHRR"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.34200   0.02490   0.58500   0.04250   0.00612 
+[1] "PP abf for shared variant: 0.612%"
+[1] ""
+[1] "ENSG00000082196_AMACR"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.007560  0.000584  0.916000  0.070800  0.005030 
+[1] "PP abf for shared variant: 0.503%"
+[1] ""
+[1] "ENSG00000112992_NNT"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.0960    0.0148    0.7500    0.1160    0.0230 
+[1] "PP abf for shared variant: 2.3%"
+[1] ""
+[1] "ENSG00000113196_HAND1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.48000   0.05660   0.40800   0.04810   0.00768 
+[1] "PP abf for shared variant: 0.768%"
+[1] ""
+[1] "ENSG00000113318_MSH3"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.3010    0.0302    0.6020    0.0605    0.0064 
+[1] "PP abf for shared variant: 0.64%"
+[1] ""
+[1] "ENSG00000113384_GOLPH3"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.56500   0.05140   0.34600   0.03150   0.00596 
+[1] "PP abf for shared variant: 0.596%"
+[1] ""
+[1] "ENSG00000113621_TXNDC15"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.61900   0.05100   0.29900   0.02460   0.00671 
+[1] "PP abf for shared variant: 0.671%"
+[1] ""
+[1] "ENSG00000120314_WDR55"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.013800  0.000753  0.926000  0.050600  0.008640 
+[1] "PP abf for shared variant: 0.864%"
+[1] ""
+[1] "ENSG00000123219_CENPK"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.02400   0.00257   0.87400   0.09370   0.00584 
+[1] "PP abf for shared variant: 0.584%"
+[1] ""
+[1] "ENSG00000145495_MARCH6"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.3790    0.0411    0.5170    0.0561    0.0075 
+[1] "PP abf for shared variant: 0.75%"
+[1] ""
+[1] "ENSG00000145839_IL9"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.6570    0.0459    0.2730    0.0191    0.0045 
+[1] "PP abf for shared variant: 0.45%"
+[1] ""
+[1] "ENSG00000146066_HIGD2A"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.4860    0.0391    0.4340    0.0349    0.0064 
+[1] "PP abf for shared variant: 0.64%"
+[1] ""
+[1] "ENSG00000150753_CCT5"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.005100  0.000571  0.878000  0.098200  0.018000 
+[1] "PP abf for shared variant: 1.8%"
+[1] ""
+[1] "ENSG00000155542_C5orf35"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 4.38e-05  2.01e-01  1.70e-04  7.80e-01  1.80e-02 
+[1] "PP abf for shared variant: 1.8%"
+[1] ""
+[1] "ENSG00000161011_SQSTM1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.84e-04  6.08e-05  7.44e-01  2.45e-01  1.04e-02 
+[1] "PP abf for shared variant: 1.04%"
+[1] ""
+[1] "ENSG00000164219_PGGT1B"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.09930   0.01030   0.80200   0.08300   0.00566 
+[1] "PP abf for shared variant: 0.566%"
+[1] ""
+[1] "ENSG00000164253_WDR41"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.02130   0.05050   0.27200   0.64700   0.00926 
+[1] "PP abf for shared variant: 0.926%"
+[1] ""
+[1] "ENSG00000164307_ILMN_10385"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.02160   0.00212   0.88300   0.08650   0.00663 
+[1] "PP abf for shared variant: 0.663%"
+[1] ""
+[1] "ENSG00000164308_ILMN_22173"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.27e-08  1.27e-09  9.03e-01  8.99e-02  6.88e-03 
+[1] "PP abf for shared variant: 0.688%"
+[1] ""
+[1] "ENSG00000164338_UTP15"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.38800   0.04320   0.50600   0.05640   0.00648 
+[1] "PP abf for shared variant: 0.648%"
+[1] ""
+[1] "ENSG00000164346_ILMN_8436"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.0788    0.0071    0.8290    0.0747    0.0101 
+[1] "PP abf for shared variant: 1.01%"
+[1] ""
+[1] "ENSG00000169045_HNRPH1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.3740    0.1200    0.3730    0.1190    0.0139 
+[1] "PP abf for shared variant: 1.39%"
+[1] ""
+[1] "ENSG00000169131_ZNF354A"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.23800   0.04080   0.60900   0.10400   0.00786 
+[1] "PP abf for shared variant: 0.786%"
+[1] ""
+[1] "ENSG00000171421_MRPL36"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.02080   0.00205   0.88500   0.08720   0.00472 
+[1] "PP abf for shared variant: 0.472%"
+[1] ""
+[1] "ENSG00000205464_ILMN_15537"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.03400   0.00318   0.87500   0.08180   0.00621 
+[1] "PP abf for shared variant: 0.621%"
+[1] ""
+[1] "ENSG00000205550_ILMN_31744"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.73700   0.02470   0.22800   0.00764   0.00291 
+[1] "PP abf for shared variant: 0.291%"
+[1] ""
+[1] "ENSG00000009844_VTA1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.64300   0.05620   0.27200   0.02370   0.00598 
+[1] "PP abf for shared variant: 0.598%"
+[1] ""
+[1] "ENSG00000010017_RANBP9"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.4130    0.0377    0.4920    0.0448    0.0121 
+[1] "PP abf for shared variant: 1.21%"
+[1] ""
+[1] "ENSG00000030110_BAK1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.0195    0.2980    0.0405    0.6170    0.0253 
+[1] "PP abf for shared variant: 2.53%"
+[1] ""
+[1] "ENSG00000031691_CENPQ"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.03020   0.00536   0.81500   0.14500   0.00453 
+[1] "PP abf for shared variant: 0.453%"
+[1] ""
+[1] "ENSG00000047932_GOPC"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.4420    0.2030    0.2310    0.1060    0.0183 
+[1] "PP abf for shared variant: 1.83%"
+[1] ""
+[1] "ENSG00000048544_MRPS10"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.00530   0.00113   0.81400   0.17300   0.00645 
+[1] "PP abf for shared variant: 0.645%"
+[1] ""
+[1] "ENSG00000051620_HEBP2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.54200   0.04330   0.37900   0.03030   0.00521 
+[1] "PP abf for shared variant: 0.521%"
+[1] ""
+[1] "ENSG00000071242_RPS6KA2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.31400   0.04830   0.54600   0.08400   0.00767 
+[1] "PP abf for shared variant: 0.767%"
+[1] ""
+[1] "ENSG00000111801_BTN3A3"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 5.11e-04  5.79e-05  8.87e-01  1.01e-01  1.19e-02 
+[1] "PP abf for shared variant: 1.19%"
+[1] ""
+[1] "ENSG00000111850_C6orf162"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.06410   0.00430   0.86700   0.05800   0.00685 
+[1] "PP abf for shared variant: 0.685%"
+[1] ""
+[1] "ENSG00000112096_SOD2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.2540    0.0566    0.5380    0.1200    0.0312 
+[1] "PP abf for shared variant: 3.12%"
+[1] ""
+[1] "ENSG00000112242_E2F3"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 4.01e-31  5.55e-01  2.72e-31  3.76e-01  6.89e-02 
+[1] "PP abf for shared variant: 6.89%"
+[1] ""
+[1] "ENSG00000112297_AIM1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.06450   0.00509   0.85300   0.06720   0.01040 
+[1] "PP abf for shared variant: 1.04%"
+[1] ""
+[1] "ENSG00000112584_FAM120B"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.36000   0.02760   0.56400   0.04330   0.00554 
+[1] "PP abf for shared variant: 0.554%"
+[1] ""
+[1] "ENSG00000124532_MRS2L"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.47900   0.06770   0.39100   0.05540   0.00709 
+[1] "PP abf for shared variant: 0.709%"
+[1] ""
+[1] "ENSG00000124587_PEX6"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.03e-07  1.57e-07  3.92e-01  5.93e-01  1.49e-02 
+[1] "PP abf for shared variant: 1.49%"
+[1] ""
+[1] "ENSG00000124588_NQO2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.47000   0.04910   0.43000   0.04480   0.00584 
+[1] "PP abf for shared variant: 0.584%"
+[1] ""
+[1] "ENSG00000124596_C6orf130"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.4880    0.1310    0.2890    0.0777    0.0140 
+[1] "PP abf for shared variant: 1.4%"
+[1] ""
+[1] "ENSG00000124688_MAD2L1BP"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.00207   0.00313   0.38400   0.58100   0.02930 
+[1] "PP abf for shared variant: 2.93%"
+[1] ""
+[1] "ENSG00000124762_CDKN1A"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.01850   0.00206   0.86000   0.09580   0.02330 
+[1] "PP abf for shared variant: 2.33%"
+[1] ""
+[1] "ENSG00000130023_C6orf70"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.02650   0.00324   0.85300   0.10500   0.01240 
+[1] "PP abf for shared variant: 1.24%"
+[1] ""
+[1] "ENSG00000130340_SNX9"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.5800    0.0651    0.3130    0.0352    0.0064 
+[1] "PP abf for shared variant: 0.64%"
+[1] ""
+[1] "ENSG00000130348_QRSL1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.006370  0.000515  0.914000  0.073800  0.005470 
+[1] "PP abf for shared variant: 0.547%"
+[1] ""
+[1] "ENSG00000135541_AHI1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.24800   0.01170   0.69900   0.03300   0.00768 
+[1] "PP abf for shared variant: 0.768%"
+[1] ""
+[1] "ENSG00000145979_TBC1D7"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.58700   0.05310   0.32500   0.02940   0.00592 
+[1] "PP abf for shared variant: 0.592%"
+[1] ""
+[1] "ENSG00000145996_CDKAL1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 3.84e-31  5.32e-01  2.51e-31  3.48e-01  1.21e-01 
+[1] "PP abf for shared variant: 12.1%"
+[1] ""
+[1] "ENSG00000146085_MUT"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.00906   0.00158   0.83200   0.14500   0.01210 
+[1] "PP abf for shared variant: 1.21%"
+[1] ""
+[1] "ENSG00000146223_RPL7L1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.1550    0.2350    0.2260    0.3420    0.0412 
+[1] "PP abf for shared variant: 4.12%"
+[1] ""
+[1] "ENSG00000146243_IRAK1BP1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.3630    0.0919    0.4220    0.1070    0.0165 
+[1] "PP abf for shared variant: 1.65%"
+[1] ""
+[1] "ENSG00000146281_ACY1L2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.015800  0.000915  0.908000  0.052500  0.022500 
+[1] "PP abf for shared variant: 2.25%"
+[1] ""
+[1] "ENSG00000146453_PNLDC1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.5280    0.1130    0.2870    0.0612    0.0104 
+[1] "PP abf for shared variant: 1.04%"
+[1] ""
+[1] "ENSG00000164414_SLC35A1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.13800   0.00898   0.79500   0.05160   0.00618 
+[1] "PP abf for shared variant: 0.618%"
+[1] ""
+[1] "ENSG00000164484_KIAA1913"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.001070  0.000106  0.903000  0.089600  0.006100 
+[1] "PP abf for shared variant: 0.61%"
+[1] ""
+[1] "ENSG00000168405_CMAH"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.02340   0.00281   0.86300   0.10400   0.00756 
+[1] "PP abf for shared variant: 0.756%"
+[1] ""
+[1] "ENSG00000180992_MRPL14"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.0723    0.1090    0.3220    0.4840    0.0127 
+[1] "PP abf for shared variant: 1.27%"
+[1] ""
+[1] "ENSG00000186470_BTN3A2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 5.13e-05  5.79e-06  8.88e-01  1.00e-01  1.22e-02 
+[1] "PP abf for shared variant: 1.22%"
+[1] ""
+[1] "ENSG00000188820_FAM26F"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.30500   0.02620   0.60800   0.05210   0.00778 
+[1] "PP abf for shared variant: 0.778%"
+[1] ""
+[1] "ENSG00000196126_HLA-DRB1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 2.24e-14  4.74e-13  4.52e-02  9.54e-01  4.68e-04 
+[1] "PP abf for shared variant: 0.0468%"
+[1] ""
+[1] "ENSG00000196306_ILMN_5683"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 3.31e-08  1.26e-08  7.22e-01  2.74e-01  4.23e-03 
+[1] "PP abf for shared variant: 0.423%"
+[1] ""
+[1] "ENSG00000197498_BXDC1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.43700   0.05480   0.44600   0.05580   0.00696 
+[1] "PP abf for shared variant: 0.696%"
+[1] ""
+[1] "ENSG00000198502_HLA-DRB5"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 5.11e-12  1.09e-10  4.48e-02  9.52e-01  3.54e-03 
+[1] "PP abf for shared variant: 0.354%"
+[1] ""
+[1] "ENSG00000204261_PSMB9"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.74e-07  3.50e-06  4.73e-02  9.52e-01  1.01e-03 
+[1] "PP abf for shared variant: 0.101%"
+[1] ""
+[1] "ENSG00000005075_POLR2J"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.3410    0.1830    0.2690    0.1440    0.0629 
+[1] "PP abf for shared variant: 6.29%"
+[1] ""
+[1] "ENSG00000064419_TNPO3"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.004470  0.000499  0.889000  0.099400  0.006720 
+[1] "PP abf for shared variant: 0.672%"
+[1] ""
+[1] "ENSG00000105778_KIAA0241"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.2400    0.0560    0.5380    0.1260    0.0401 
+[1] "PP abf for shared variant: 4.01%"
+[1] ""
+[1] "ENSG00000105829_BET1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.39200   0.03280   0.52600   0.04390   0.00594 
+[1] "PP abf for shared variant: 0.594%"
+[1] ""
+[1] "ENSG00000105928_DFNA5"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.37200   0.04430   0.51600   0.06150   0.00615 
+[1] "PP abf for shared variant: 0.615%"
+[1] ""
+[1] "ENSG00000105971_CAV2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.003000  0.000406  0.871000  0.118000  0.007970 
+[1] "PP abf for shared variant: 0.797%"
+[1] ""
+[1] "ENSG00000106121_ILMN_22269"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.30e-05  4.47e-05  2.25e-01  7.74e-01  1.24e-03 
+[1] "PP abf for shared variant: 0.124%"
+[1] ""
+[1] "ENSG00000106153_CHCHD2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 5.02e-05  4.17e-06  9.13e-01  7.58e-02  1.15e-02 
+[1] "PP abf for shared variant: 1.15%"
+[1] ""
+[1] "ENSG00000106392_C1GALT1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.48500   0.07870   0.36900   0.05980   0.00781 
+[1] "PP abf for shared variant: 0.781%"
+[1] ""
+[1] "ENSG00000106591_MRPL32"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.2860    0.0603    0.5300    0.1120    0.0118 
+[1] "PP abf for shared variant: 1.18%"
+[1] ""
+[1] "ENSG00000106610_ILMN_35010"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.08490   0.02400   0.69000   0.19500   0.00655 
+[1] "PP abf for shared variant: 0.655%"
+[1] ""
+[1] "ENSG00000126870_WDR60"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.1970    0.0566    0.5580    0.1600    0.0280 
+[1] "PP abf for shared variant: 2.8%"
+[1] ""
+[1] "ENSG00000127952_STYXL1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.4430    0.0312    0.4830    0.0340    0.0086 
+[1] "PP abf for shared variant: 0.86%"
+[1] ""
+[1] "ENSG00000128534_LSM8"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.08320   0.02360   0.69000   0.19500   0.00816 
+[1] "PP abf for shared variant: 0.816%"
+[1] ""
+[1] "ENSG00000128578_FAM40B"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.4810    0.0550    0.4050    0.0463    0.0128 
+[1] "PP abf for shared variant: 1.28%"
+[1] ""
+[1] "ENSG00000128604_IRF5"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 6.51e-08  7.24e-09  8.96e-01  9.96e-02  4.66e-03 
+[1] "PP abf for shared variant: 0.466%"
+[1] ""
+[1] "ENSG00000136240_KDELR2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.52200   0.07560   0.34400   0.04990   0.00766 
+[1] "PP abf for shared variant: 0.766%"
+[1] ""
+[1] "ENSG00000146535_GNA12"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.30300   0.04360   0.56500   0.08130   0.00663 
+[1] "PP abf for shared variant: 0.663%"
+[1] ""
+[1] "ENSG00000154710_RABGEF1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.50200   0.03550   0.42700   0.03010   0.00543 
+[1] "PP abf for shared variant: 0.543%"
+[1] ""
+[1] "ENSG00000158604_TMED4"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+    0.127     0.144     0.107     0.120     0.503 
+[1] "PP abf for shared variant: 50.3%"
+[1] ""
+[1] "ENSG00000160916_ATP5J2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.60100   0.04470   0.32500   0.02420   0.00541 
+[1] "PP abf for shared variant: 0.541%"
+[1] ""
+[1] "ENSG00000161036_ILMN_12314"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.4330    0.2320    0.1980    0.1060    0.0319 
+[1] "PP abf for shared variant: 3.19%"
+[1] ""
+[1] "ENSG00000168090_COPS6"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.6460    0.0516    0.2740    0.0219    0.0064 
+[1] "PP abf for shared variant: 0.64%"
+[1] ""
+[1] "ENSG00000169193_CCDC126"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.01310   0.00865   0.58700   0.38600   0.00504 
+[1] "PP abf for shared variant: 0.504%"
+[1] ""
+[1] "ENSG00000170356_ILMN_115008"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.53100   0.03530   0.40200   0.02670   0.00492 
+[1] "PP abf for shared variant: 0.492%"
+[1] ""
+[1] "ENSG00000174353_ILMN_28376"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.68700   0.03450   0.26100   0.01310   0.00433 
+[1] "PP abf for shared variant: 0.433%"
+[1] ""
+[1] "ENSG00000178381_ZFAND2A"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.10700   0.03030   0.66700   0.18800   0.00732 
+[1] "PP abf for shared variant: 0.732%"
+[1] ""
+[1] "ENSG00000188191_PRKAR1B"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.001550  0.000333  0.814000  0.175000  0.009900 
+[1] "PP abf for shared variant: 0.99%"
+[1] ""
+[1] "ENSG00000188372_ZP3"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 8.00e-06  1.41e-06  8.45e-01  1.49e-01  6.06e-03 
+[1] "PP abf for shared variant: 0.606%"
+[1] ""
+[1] "ENSG00000188707_C7orf29"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.3310    0.1010    0.4260    0.1300    0.0123 
+[1] "PP abf for shared variant: 1.23%"
+[1] ""
+[1] "ENSG00000189077_TMEM120A"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.14000   0.00950   0.78900   0.05350   0.00753 
+[1] "PP abf for shared variant: 0.753%"
+[1] ""
+[1] "ENSG00000196313_ILMN_19309"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.64400   0.09680   0.21800   0.03270   0.00912 
+[1] "PP abf for shared variant: 0.912%"
+[1] ""
+[1] "ENSG00000196511_TPK1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.4430    0.0312    0.4840    0.0340    0.0076 
+[1] "PP abf for shared variant: 0.76%"
+[1] ""
+[1] "ENSG00000196937_FAM3C"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.1910    0.3630    0.1390    0.2640    0.0426 
+[1] "PP abf for shared variant: 4.26%"
+[1] ""
+[1] "ENSG00000197448_GSTK1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.70700   0.03830   0.23800   0.01290   0.00355 
+[1] "PP abf for shared variant: 0.355%"
+[1] ""
+[1] "ENSG00000213214_ILMN_28207"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.54700   0.03540   0.38700   0.02500   0.00522 
+[1] "PP abf for shared variant: 0.522%"
+[1] ""
+[1] "ENSG00000214253_FIS1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.56800   0.07960   0.30100   0.04220   0.00955 
+[1] "PP abf for shared variant: 0.955%"
+[1] ""
+[1] "ENSG00000036448_MYOM2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.32900   0.06530   0.49800   0.09880   0.00856 
+[1] "PP abf for shared variant: 0.856%"
+[1] ""
+[1] "ENSG00000066827_ZFAT1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.56300   0.04990   0.35100   0.03110   0.00503 
+[1] "PP abf for shared variant: 0.503%"
+[1] ""
+[1] "ENSG00000070718_AP3M2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.0442    0.3980    0.0523    0.4710    0.0347 
+[1] "PP abf for shared variant: 3.47%"
+[1] ""
+[1] "ENSG00000104427_C8orf70"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.001500  0.000113  0.923000  0.069700  0.005810 
+[1] "PP abf for shared variant: 0.581%"
+[1] ""
+[1] "ENSG00000104497_SNX16"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.00591   0.04750   0.10400   0.83700   0.00539 
+[1] "PP abf for shared variant: 0.539%"
+[1] ""
+[1] "ENSG00000104518_GSDMDC1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.00173   0.41800   0.00224   0.54200   0.03580 
+[1] "PP abf for shared variant: 3.58%"
+[1] ""
+[1] "ENSG00000104687_GSR"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.4860    0.1510    0.2680    0.0831    0.0128 
+[1] "PP abf for shared variant: 1.28%"
+[1] ""
+[1] "ENSG00000104723_TUSC3"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.3420    0.1540    0.3370    0.1510    0.0156 
+[1] "PP abf for shared variant: 1.56%"
+[1] ""
+[1] "ENSG00000104763_ASAH1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.1290    0.2800    0.1780    0.3860    0.0285 
+[1] "PP abf for shared variant: 2.85%"
+[1] ""
+[1] "ENSG00000136982_ILMN_3628"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.2540    0.0204    0.6670    0.0536    0.0053 
+[1] "PP abf for shared variant: 0.53%"
+[1] ""
+[1] "ENSG00000147421_HMBOX1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.01530   0.00121   0.90400   0.07150   0.00845 
+[1] "PP abf for shared variant: 0.845%"
+[1] ""
+[1] "ENSG00000147454_SLC25A37"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.4660    0.0678    0.3930    0.0572    0.0158 
+[1] "PP abf for shared variant: 1.58%"
+[1] ""
+[1] "ENSG00000147592_LACTB2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.52400   0.07090   0.35000   0.04740   0.00817 
+[1] "PP abf for shared variant: 0.817%"
+[1] ""
+[1] "ENSG00000147647_DPYS"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.3700    0.2760    0.1880    0.1400    0.0268 
+[1] "PP abf for shared variant: 2.68%"
+[1] ""
+[1] "ENSG00000147813_NAPRT1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.000394  0.095400  0.003680  0.889000  0.011700 
+[1] "PP abf for shared variant: 1.17%"
+[1] ""
+[1] "ENSG00000154319_C8orf13"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.1080    0.0475    0.5700    0.2510    0.0229 
+[1] "PP abf for shared variant: 2.29%"
+[1] ""
+[1] "ENSG00000156795_C8orf32"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.000711  0.000100  0.870000  0.123000  0.005880 
+[1] "PP abf for shared variant: 0.588%"
+[1] ""
+[1] "ENSG00000160959_LRRC14"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.002940  0.712000  0.000854  0.207000  0.077600 
+[1] "PP abf for shared variant: 7.76%"
+[1] ""
+[1] "ENSG00000161016_RPL8"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 2.73e-07  6.61e-05  4.11e-03  9.94e-01  1.39e-03 
+[1] "PP abf for shared variant: 0.139%"
+[1] ""
+[1] "ENSG00000172728_FUT10"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.02970   0.00643   0.78800   0.17100   0.00486 
+[1] "PP abf for shared variant: 0.486%"
+[1] ""
+[1] "ENSG00000173566_NUDT18"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.24700   0.02680   0.65000   0.07060   0.00594 
+[1] "PP abf for shared variant: 0.594%"
+[1] ""
+[1] "ENSG00000176209_C8orf40"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.000239  0.002150  0.099900  0.897000  0.000730 
+[1] "PP abf for shared variant: 0.073%"
+[1] ""
+[1] "ENSG00000205038_PKHD1L1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.08e-04  1.39e-05  8.82e-01  1.13e-01  4.42e-03 
+[1] "PP abf for shared variant: 0.442%"
+[1] ""
+[1] "ENSG00000215374_ILMN_41203"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.61200   0.04270   0.31900   0.02220   0.00435 
+[1] "PP abf for shared variant: 0.435%"
+[1] ""
+[1] "ENSG00000054179_ENTPD2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.58700   0.06310   0.30900   0.03330   0.00714 
+[1] "PP abf for shared variant: 0.714%"
+[1] ""
+[1] "ENSG00000070214_SLC44A1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.5040    0.0924    0.3320    0.0609    0.0107 
+[1] "PP abf for shared variant: 1.07%"
+[1] ""
+[1] "ENSG00000090054_SPTLC1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.54400   0.05700   0.35600   0.03730   0.00618 
+[1] "PP abf for shared variant: 0.618%"
+[1] ""
+[1] "ENSG00000106733_C9orf95"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.000747  0.000102  0.873000  0.119000  0.007660 
+[1] "PP abf for shared variant: 0.766%"
+[1] ""
+[1] "ENSG00000106789_CORO2A"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.58200   0.06520   0.31100   0.03480   0.00678 
+[1] "PP abf for shared variant: 0.678%"
+[1] ""
+[1] "ENSG00000119314_ROD1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.32300   0.04150   0.55600   0.07140   0.00732 
+[1] "PP abf for shared variant: 0.732%"
+[1] ""
+[1] "ENSG00000119383_PPP2R4"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.58900   0.08690   0.27500   0.04050   0.00861 
+[1] "PP abf for shared variant: 0.861%"
+[1] ""
+[1] "ENSG00000119431_HDHD3"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.50600   0.08600   0.34000   0.05780   0.00977 
+[1] "PP abf for shared variant: 0.977%"
+[1] ""
+[1] "ENSG00000130560_UBAC1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.51900   0.08490   0.33300   0.05450   0.00868 
+[1] "PP abf for shared variant: 0.868%"
+[1] ""
+[1] "ENSG00000130653_PNPLA7"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.49200   0.03020   0.44500   0.02730   0.00507 
+[1] "PP abf for shared variant: 0.507%"
+[1] ""
+[1] "ENSG00000130956_HABP4"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.46100   0.04360   0.44600   0.04220   0.00747 
+[1] "PP abf for shared variant: 0.747%"
+[1] ""
+[1] "ENSG00000131669_NINJ1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.56500   0.06680   0.32300   0.03820   0.00661 
+[1] "PP abf for shared variant: 0.661%"
+[1] ""
+[1] "ENSG00000136861_CDK5RAP2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.36800   0.03810   0.53300   0.05520   0.00633 
+[1] "PP abf for shared variant: 0.633%"
+[1] ""
+[1] "ENSG00000136872_ALDOB"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.5270    0.0626    0.3610    0.0429    0.0067 
+[1] "PP abf for shared variant: 0.67%"
+[1] ""
+[1] "ENSG00000137054_POLR1E"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.24100   0.01990   0.67700   0.05580   0.00669 
+[1] "PP abf for shared variant: 0.669%"
+[1] ""
+[1] "ENSG00000148290_SURF1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.0152    0.2400    0.0429    0.6800    0.0214 
+[1] "PP abf for shared variant: 2.14%"
+[1] ""
+[1] "ENSG00000148296_SURF6"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+   0.0212    0.3370    0.0363    0.5760    0.0294 
+[1] "PP abf for shared variant: 2.94%"
+[1] ""
+[1] "ENSG00000148384_INPP5E"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.01030   0.00152   0.82500   0.12200   0.04090 
+[1] "PP abf for shared variant: 4.09%"
+[1] ""
+[1] "ENSG00000156052_GNAQ"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.58300   0.07940   0.29000   0.03950   0.00772 
+[1] "PP abf for shared variant: 0.772%"
+[1] ""
+[1] "ENSG00000157653_C9orf43"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.46500   0.07140   0.39400   0.06040   0.00946 
+[1] "PP abf for shared variant: 0.946%"
+[1] ""
+[1] "ENSG00000159884_CCDC107"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.61200   0.03300   0.33200   0.01790   0.00461 
+[1] "PP abf for shared variant: 0.461%"
+[1] ""
+[1] "ENSG00000164978_NUDT2"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.07440   0.00685   0.82500   0.07600   0.01730 
+[1] "PP abf for shared variant: 1.73%"
+[1] ""
+[1] "ENSG00000165029_ABCA1"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.44500   0.07590   0.40100   0.06840   0.00942 
+[1] "PP abf for shared variant: 0.942%"
+[1] ""
+[1] "ENSG00000175768_C9orf105"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.01290   0.00107   0.90300   0.07480   0.00785 
+[1] "PP abf for shared variant: 0.785%"
+[1] ""
+[1] "ENSG00000196152_ZNF79"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.02560   0.00278   0.87100   0.09460   0.00626 
+[1] "PP abf for shared variant: 0.626%"
+[1] ""
+[1] "ENSG00000204001_LCN8"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.53800   0.07470   0.33300   0.04630   0.00823 
+[1] "PP abf for shared variant: 0.823%"
+[1] ""
